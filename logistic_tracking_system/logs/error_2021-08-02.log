@@ -1,0 +1,1814 @@
+[2021-08-02 08:39:09,168][Thread-1:18280][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticProductPlanCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4289, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4302, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:39:16,302][Thread-1:18280][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticBomMatterCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5617, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5636, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:39:16,345][Thread-2:13608][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4348, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4363, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:40:54,072][Thread-3:13884][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedCodeGetMatterCodeID]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5707, in get
+    current_person_id = request.session['session_currentId']
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\contrib\sessions\backends\base.py", line 65, in __getitem__
+    return self._session[key]
+KeyError: 'session_currentId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5745, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'KeyError' is not JSON serializable
+[2021-08-02 08:40:55,475][Thread-4:18048][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkStationGetData]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5649, in get
+    current_person_id = request.session['session_currentId']
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\contrib\sessions\backends\base.py", line 65, in __getitem__
+    return self._session[key]
+KeyError: 'session_currentId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5686, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'KeyError' is not JSON serializable
+[2021-08-02 08:40:55,510][Thread-3:13884][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticBomMatterCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5617, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5636, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:40:58,613][Thread-3:13884][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticBomMatterCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5617, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5636, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:40:58,637][Thread-4:18048][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4348, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4363, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:41:02,389][Thread-3:13884][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkStationGetData]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5649, in get
+    current_person_id = request.session['session_currentId']
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\contrib\sessions\backends\base.py", line 65, in __getitem__
+    return self._session[key]
+KeyError: 'session_currentId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5686, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'KeyError' is not JSON serializable
+[2021-08-02 08:41:02,426][Thread-4:18048][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticBomMatterCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5617, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5636, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:41:03,410][Thread-4:18048][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5511, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5598, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:41:03,633][Thread-4:18048][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5511, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5598, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:42:16,780][Thread-6:4528][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkStationGetData]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5649, in get
+    current_person_id = request.session['session_currentId']
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\contrib\sessions\backends\base.py", line 65, in __getitem__
+    return self._session[key]
+KeyError: 'session_currentId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5686, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'KeyError' is not JSON serializable
+[2021-08-02 08:42:16,812][Thread-5:1248][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticBomMatterCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5617, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5636, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:42:18,242][Thread-5:1248][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5511, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5598, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:44:09,729][Thread-1:17420][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5506, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5592, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:44:09,753][Thread-2:3240][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5506, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5592, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:44:12,926][Thread-1:17420][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkStationGetData]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5643, in get
+    current_person_id = request.session['session_currentId']
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\contrib\sessions\backends\base.py", line 65, in __getitem__
+    return self._session[key]
+KeyError: 'session_currentId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5680, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'KeyError' is not JSON serializable
+[2021-08-02 08:44:12,958][Thread-2:3240][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticBomMatterCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5611, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5630, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:44:17,114][Thread-2:3240][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5506, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5592, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:44:17,272][Thread-2:3240][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5506, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5592, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:44:17,597][Thread-2:3240][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5506, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5592, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 08:44:17,625][Thread-1:17420][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5506, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5592, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 09:51:56,422][Thread-9:10896][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkStation]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 2463, in get
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 2495, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 13:12:24,222][Thread-3:19124][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4356, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4371, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 13:12:24,245][Thread-4:17548][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4356, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4371, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 13:12:29,346][Thread-5:14920][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5923, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 13:12:35,084][Thread-5:14920][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5923, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 13:12:39,614][Thread-5:14920][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5923, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 13:18:32,793][Thread-2:15092][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4356, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4371, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 13:18:32,816][Thread-3:10716][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4356, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4371, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 13:26:51,146][Thread-1:19180][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5923, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 13:27:28,464][Thread-1:19180][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5923, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 13:27:42,577][Thread-3:8376][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticNoPagePersonMatter]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3607, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3639, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 13:29:02,114][Thread-4:3748][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5923, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 13:34:40,563][Thread-1:19636][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5923, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 13:43:43,181][Thread-2:12792][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5926, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 13:44:23,698][Thread-2:12792][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5926, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 13:44:28,771][Thread-3:12456][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5926, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 13:44:33,553][Thread-3:12456][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPick]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5898, in get
+    page_result = Page(page, page_size, data_list)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\page\Page.py", line 16, in __init__
+    self.totalPage, remainder = divmod(self.recordCount, self.pageSize)
+TypeError: unsupported operand type(s) for divmod(): 'int' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5926, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-08-02 14:23:36,681][Thread-5:14076][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4361, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4376, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-08-02 15:18:43,621][Thread-6:2308][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkStationGetData]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5705, in get
+    matter_dfs = db.execute_sql(conn, sql_matter_format)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_common.process_matter_deal' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5733, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-08-02 15:19:22,757][Thread-8:19700][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkStationGetData]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5705, in get
+    matter_dfs = db.execute_sql(conn, sql_matter_format)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_common.process_matter_deal' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5733, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-08-02 15:27:27,452][Thread-23:20244][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticUnqualifiedProduct]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5408, in get
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'pen.unqualified_product_cmvdk_c' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5462, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-08-02 16:28:01,415][Thread-2:20256][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticProductCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3050, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 45, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'pen.productlist' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3064, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable

@@ -1,0 +1,88 @@
+[2021-07-14 11:13:41,607][Thread-9:3860][task_id:lts.views][views.py:3346][ERROR][创建产品详情表失败]
+[2021-07-14 11:14:45,866][Thread-9:3860][task_id:lts.views][views.py:3346][ERROR][创建产品详情表失败]
+[2021-07-14 11:15:47,931][Thread-10:13540][task_id:lts.views][views.py:3346][ERROR][创建产品详情表失败]
+[2021-07-14 11:43:29,076][Thread-1:20332][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonMatter]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.PersonMatter didn't return an HttpResponse object. It returned None instead.
+[2021-07-14 11:43:34,915][Thread-1:20332][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonMatter]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.PersonMatter didn't return an HttpResponse object. It returned None instead.
+[2021-07-14 11:43:41,255][Thread-1:20332][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonMatter]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.PersonMatter didn't return an HttpResponse object. It returned None instead.
+[2021-07-14 11:43:42,341][Thread-1:20332][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonMatter]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.PersonMatter didn't return an HttpResponse object. It returned None instead.
+[2021-07-14 11:43:43,194][Thread-1:20332][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonMatter]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.PersonMatter didn't return an HttpResponse object. It returned None instead.
+[2021-07-14 11:43:50,845][Thread-1:20332][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonMatter]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.PersonMatter didn't return an HttpResponse object. It returned None instead.
+[2021-07-14 12:38:48,177][Thread-1:2840][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonMatter]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.PersonMatter didn't return an HttpResponse object. It returned None instead.
+[2021-07-14 14:27:34,304][Thread-1:19572][task_id:lts.views][views.py:3485][ERROR][修改失败---->'NoneType' object is not iterable]
+[2021-07-14 14:33:49,916][Thread-1:17632][task_id:lts.views][views.py:3485][ERROR][修改失败---->'NoneType' object is not iterable]
+[2021-07-14 14:34:11,756][Thread-1:17632][task_id:lts.views][views.py:3485][ERROR][修改失败---->'NoneType' object is not iterable]
+[2021-07-14 15:15:27,612][Thread-3:15332][task_id:lts.views][views.py:3502][ERROR][修改失败---->(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  = 'Im_Matter_2', matter_count = '5' \n                                      wh' at line 1")]
+[2021-07-14 15:18:12,911][Thread-3:22524][task_id:lts.views][views.py:3500][ERROR][修改失败---->must be str, not int]
+[2021-07-14 15:19:53,454][Thread-1:15184][task_id:lts.views][views.py:3501][ERROR][修改失败---->must be str, not int]
+[2021-07-14 15:20:32,661][Thread-1:21400][task_id:lts.views][views.py:3501][ERROR][修改失败---->unsupported operand type(s) for +: 'NoneType' and 'int']
+[2021-07-14 15:22:52,321][Thread-2:10648][task_id:lts.views][views.py:3501][ERROR][修改失败---->unsupported operand type(s) for +: 'NoneType' and 'int']
+[2021-07-14 15:23:33,095][Thread-2:10648][task_id:lts.views][views.py:2165][ERROR][修改失败---->'bom_matter_code']
+[2021-07-14 15:24:07,804][Thread-2:10648][task_id:lts.views][views.py:2165][ERROR][修改失败---->'bom_matter_code']
+[2021-07-14 15:25:12,175][Thread-1:18756][task_id:lts.views][views.py:3502][ERROR][修改失败---->unsupported operand type(s) for +: 'NoneType' and 'int']
+[2021-07-14 15:25:50,672][Thread-1:3460][task_id:lts.views][views.py:3502][ERROR][修改失败---->unsupported operand type(s) for +: 'NoneType' and 'int']
+[2021-07-14 15:26:08,020][Thread-2:19512][task_id:lts.views][views.py:2165][ERROR][修改失败---->'bom_matter_code']
+[2021-07-14 15:26:12,051][Thread-1:3460][task_id:lts.views][views.py:3502][ERROR][修改失败---->unsupported operand type(s) for +: 'NoneType' and 'int']
+[2021-07-14 15:26:31,620][Thread-1:3460][task_id:lts.views][views.py:3502][ERROR][修改失败---->unsupported operand type(s) for +: 'NoneType' and 'int']
+[2021-07-14 15:27:22,514][Thread-1:1380][task_id:lts.views][views.py:3503][ERROR][修改失败---->unsupported operand type(s) for +: 'NoneType' and 'int']
+[2021-07-14 15:28:11,456][Thread-1:18352][task_id:lts.views][views.py:3503][ERROR][修改失败---->'str' object has no attribute 'get']
+[2021-07-14 15:28:45,847][Thread-1:18352][task_id:lts.views][views.py:3503][ERROR][修改失败---->(1054, "Unknown column 'sql_num' in 'field list'")]
+[2021-07-14 15:35:04,294][Thread-1:22484][task_id:lts.views][views.py:2165][ERROR][修改失败---->'bom_matter_code']
+[2021-07-14 15:46:23,466][Thread-4:22464][task_id:lts.views][views.py:2165][ERROR][修改失败---->'bom_matter_code']
+[2021-07-14 16:19:00,138][Thread-1:20172][task_id:lts.views][views.py:2196][ERROR][修改失败---->'bom_matter_code']
+[2021-07-14 16:28:02,591][Thread-1:20108][task_id:lts.views][views.py:2209][ERROR][修改失败---->execute_sql() missing 1 required positional argument: 'sql']

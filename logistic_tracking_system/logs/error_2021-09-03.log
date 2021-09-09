@@ -1,0 +1,814 @@
+[2021-09-03 08:38:47,641][Thread-1:1844][task_id:lts.views][views.py:8109][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-03 08:38:51,944][Thread-4:8448][task_id:lts.views][views.py:8109][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-03 08:39:01,861][Thread-4:8448][task_id:lts.views][views.py:8109][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-03 08:52:44,506][Thread-1:18548][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticOperationSystem]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6613, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6661, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:53:33,805][Thread-1:18548][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticOperationSystem]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6613, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6661, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:53:38,231][Thread-1:18548][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticOperationSystem]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6613, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6661, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:53:49,690][Thread-1:18548][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticOperationSystem]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6613, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6661, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:54:02,714][Thread-8:1620][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:54:11,603][Thread-7:1760][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:54:41,895][Thread-3:11332][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:54:44,650][Thread-5:18400][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:54:48,435][Thread-8:1620][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:55:35,307][Thread-7:1760][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:55:40,723][Thread-5:18400][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:55:58,468][Thread-8:1620][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5358, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'end_time' in 'where clause'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-03 08:59:34,114][Thread-15:16520][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5358, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'end_time' in 'where clause'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-03 09:15:47,728][Thread-13:13176][task_id:lts.views][views.py:9162][ERROR][查询产品出库失败]
+[2021-09-03 09:15:49,551][Thread-13:13176][task_id:lts.views][views.py:9162][ERROR][查询产品出库失败]
+[2021-09-03 09:15:55,103][Thread-13:13176][task_id:lts.views][views.py:9162][ERROR][查询产品出库失败]
+[2021-09-03 09:17:00,801][Thread-14:10524][task_id:lts.views][views.py:9162][ERROR][查询产品出库失败]
+[2021-09-03 14:56:01,075][Thread-1:9144][task_id:lts.views][views.py:8154][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 15:21:02,449][Thread-1:18400][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.QualifiedMatterCode didn't return an HttpResponse object. It returned None instead.
+[2021-09-03 15:21:11,996][Thread-3:2884][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.QualifiedMatterCode didn't return an HttpResponse object. It returned None instead.
+[2021-09-03 15:23:50,269][Thread-1:12148][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4531, in get
+    des = db.execute_sql(conn, sql_work_id)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4591, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'InterfaceError' is not JSON serializable
+[2021-09-03 15:25:58,407][Thread-1:11196][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4531, in get
+    des = db.execute_sql(conn, sql_work_id)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4592, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'InterfaceError' is not JSON serializable
+[2021-09-03 15:26:26,824][Thread-1:10160][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.QualifiedMatterCode didn't return an HttpResponse object. It returned None instead.
+[2021-09-03 15:27:36,351][Thread-1:16252][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.QualifiedMatterCode didn't return an HttpResponse object. It returned None instead.
+[2021-09-03 15:31:24,020][Thread-6:11224][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.QualifiedMatterCode didn't return an HttpResponse object. It returned None instead.
+[2021-09-03 15:34:25,757][Thread-1:16640][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4549, in get
+    db.close_connection(conn)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 86, in close_connection
+    conn.close()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 404, in close
+    raise err.Error("Already closed")
+pymysql.err.Error: Already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4594, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Error' is not JSON serializable
+[2021-09-03 15:37:09,677][Thread-4:9528][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4548, in get
+    db.close_connection(conn)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 86, in close_connection
+    conn.close()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 404, in close
+    raise err.Error("Already closed")
+pymysql.err.Error: Already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4594, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Error' is not JSON serializable
+[2021-09-03 15:38:53,721][Thread-1:18652][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4550, in get
+    db.close_connection(conn)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 86, in close_connection
+    conn.close()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 404, in close
+    raise err.Error("Already closed")
+pymysql.err.Error: Already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4596, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Error' is not JSON serializable
+[2021-09-03 15:50:44,702][Thread-6:23416][task_id:lts.views][views.py:4513][ERROR][产品编码已经在数据库中,请扫下一个]
+[2021-09-03 15:51:20,383][Thread-9:14692][task_id:lts.views][views.py:4513][ERROR][产品编码已经在数据库中,请扫下一个]
+[2021-09-03 15:52:57,365][Thread-2:18888][task_id:lts.views][views.py:4513][ERROR][产品编码已经在数据库中,请扫下一个]
+[2021-09-03 15:53:00,646][Thread-2:18888][task_id:lts.views][views.py:4513][ERROR][产品编码已经在数据库中,请扫下一个]
+[2021-09-03 15:53:02,859][Thread-2:18888][task_id:lts.views][views.py:4513][ERROR][产品编码已经在数据库中,请扫下一个]
+[2021-09-03 16:14:47,626][Thread-4:19384][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:18:50,186][Thread-5:20756][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:19:24,256][Thread-1:21152][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:19:38,685][Thread-1:10732][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:20:24,284][Thread-1:10900][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:22:21,492][Thread-1:20344][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:22:32,509][Thread-1:20344][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:48:13,768][Thread-1:21416][task_id:lts.views][views.py:201][ERROR][数据导出操作失败]
+[2021-09-03 16:48:35,157][Thread-1:21416][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticDeleteFinishedCodeGetMatterCodeID]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4949, in get
+    finished_product_code_sql = "and finished_product_code = " + "'" + finished_product_code + "'"
+TypeError: must be str, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5024, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 16:49:22,288][Thread-1:9344][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticDeleteFinishedCodeGetMatterCodeID]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4988, in get
+    db.execute_sql(conn, sql_delet)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'co2.none' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5024, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-09-03 16:50:53,924][Thread-1:21124][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticDeleteFinishedCodeGetMatterCodeID]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4989, in get
+    db.execute_sql(conn, sql_delet)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'co2.none' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5025, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-09-03 17:26:56,222][Thread-8:22808][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticModifyInWorkStation]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 8357, in get
+    ds = ds.strftime("%Y-%m-%d %H:%M:%S")
+AttributeError: 'str' object has no attribute 'strftime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 8391, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'AttributeError' is not JSON serializable
+[2021-09-03 17:31:18,282][Thread-9:20960][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticModifyInWorkStation]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 8357, in get
+    ds = ds.strftime("%Y-%m-%d %H:%M:%S")
+AttributeError: 'str' object has no attribute 'strftime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 8391, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'AttributeError' is not JSON serializable

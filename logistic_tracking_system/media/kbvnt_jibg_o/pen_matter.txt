@@ -1,0 +1,76 @@
+    Private Sub print_SN()
+        Dim 打印内容 As String
+        Dim bat文件内容 As String
+        Dim 打印txt文件 As Object
+        Dim 打印bat文件 As Object
+        Dim fs As Object
+
+        打印内容 = "^XA
+
+^PW1300
+^LL0827
+
+^LH0,60
+
+^FO480,50
+^AS,30,30
+^FDFlex Part Number^FS
+^FO65,90
+^BCN,100,Y,N,N
+^FD" & SUB-ASSHEUH-2A001364-100 & "^FS
+
+^FO150,270
+^AS,30,30
+^FDVendor Code^FS
+^FO20,310
+^BCN,100,Y,N,N
+^FD" & SPR001300 & "^FS
+
+^FO525,270
+^AS,30,30
+^FDPart QTY/P^FS
+^FO465,310
+^BCN,100,Y,N,N
+^FD " & 40 & "^FS
+
+^FO815,270
+^AS,30,30
+^FDPackage Sequence^FS
+^FO740,310
+^BCN,100,Y,N,N
+^FD " & Str(pub_No_box) & "-" & 20 & "^FS
+
+^FO275,480
+^AS,30,30
+^FDPart Revision^FS
+^FO200,520
+^BCN,100,Y,N,N
+^FD" & 00A01} & "^FS
+
+^FO640,480
+^AS,30,30
+^FDManufacturing Date^FS
+^FO583,520
+^BCN,100,Y,N,N
+^FD" & pub_00A01 & "^FS
+
+^XZ"
+
+        fs = CreateObject("Scripting.filesystemobject")
+        打印txt文件 = fs.createtextfile("D:\printcartonboxQR.txt", True)
+        打印txt文件.writeLine(打印内容)
+        打印txt文件.close
+
+
+        bat文件内容 = "d:
+COPY printcartonboxQR.txt \\" + Environ("computername") + "\Zebra"
+        fs = CreateObject("Scripting.filesystemobject")
+        打印bat文件 = fs.createtextfile("D:\print.bat", True)
+        打印bat文件.writeLine(bat文件内容)
+        打印bat文件.close
+
+        Shell（"D:\print.bat"）
+
+        打印bat文件 = Nothing
+        打印txt文件 = Nothing
+    End Sub

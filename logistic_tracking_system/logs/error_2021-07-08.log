@@ -1,0 +1,3 @@
+[2021-07-08 13:16:18,348][Thread-1:5936][task_id:lts.views][views.py:1703][ERROR][创建产品详情表失败]
+[2021-07-08 16:12:08,704][Thread-1:13364][task_id:lts.views][views.py:1798][ERROR][修改失败---->'dict' object is not callable]
+[2021-07-08 16:16:30,833][Thread-1:15340][task_id:lts.views][views.py:1800][ERROR][修改失败---->(1054, "Unknown column 'Im_BOM_Matter_2' in 'where clause'")]

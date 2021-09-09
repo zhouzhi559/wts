@@ -1,0 +1,7 @@
+
+^FO480,50
+^AS,30,30
+^FDFlex Part Number^FS
+^FO65,90
+^BCN,100,Y,N,N
+^FD" & {0} & "^FS

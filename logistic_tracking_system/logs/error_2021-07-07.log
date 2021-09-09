@@ -1,0 +1,33 @@
+[2021-07-07 13:14:15,354][Thread-1:18388][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticBOMProductList]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 842, in get
+    product_name = request.Get.get("product_name")
+AttributeError: 'WSGIRequest' object has no attribute 'Get'
+[2021-07-07 16:40:44,964][Thread-1:14004][task_id:lts.views][views.py:1145][ERROR][创建物料详情表失败]
+[2021-07-07 16:40:45,177][Thread-1:14004][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticBOMMatterList]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.BOMMatterList didn't return an HttpResponse object. It returned None instead.
+[2021-07-07 16:43:02,117][Thread-1:28608][task_id:lts.views][views.py:1151][ERROR][创建物料详情表失败]
+[2021-07-07 16:43:02,324][Thread-1:28608][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticBOMMatterList]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.BOMMatterList didn't return an HttpResponse object. It returned None instead.

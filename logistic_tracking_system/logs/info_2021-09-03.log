@@ -1,0 +1,1737 @@
+[2021-09-03 08:37:49,557][MainThread:12592][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 08:38:03,726][Thread-1:1844][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 08:38:04,819][Thread-1:1844][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 08:38:13,098][Thread-1:1844][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 08:38:13,223][Thread-1:1844][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 08:38:13,239][Thread-2:15244][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 08:38:13,489][Thread-2:15244][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:38:13,489][Thread-5:11452][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:38:13,489][Thread-3:11292][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:38:45,971][Thread-1:1844][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 08:38:45,972][Thread-3:11292][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:38:45,973][Thread-5:11452][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:38:45,973][Thread-2:15244][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 08:38:46,032][Thread-1:1844][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:38:47,641][Thread-1:1844][task_id:lts.views][views.py:8109][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-03 08:38:49,519][Thread-4:8448][task_id:lts.views][views.py:6477][INFO][不分页的物料查询成功]
+[2021-09-03 08:38:51,944][Thread-4:8448][task_id:lts.views][views.py:8109][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-03 08:39:01,861][Thread-4:8448][task_id:lts.views][views.py:8109][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-03 08:39:05,885][Thread-4:8448][task_id:lts.views][views.py:8104][INFO][生命周期成功:]
+[2021-09-03 08:42:20,529][Thread-11:17828][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:42:20,529][Thread-7:17120][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:42:20,545][Thread-9:2880][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:42:24,779][Thread-8:11920][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 08:43:14,232][Thread-9:2880][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 08:43:14,246][Thread-8:11920][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:44:15,536][Thread-6:8600][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 08:44:16,587][Thread-6:8600][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:44:16,591][Thread-13:13896][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:44:16,605][Thread-15:17336][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:44:20,812][Thread-6:8600][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 08:44:27,998][Thread-6:8600][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 08:44:38,398][Thread-6:8600][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 08:48:42,743][MainThread:12592][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 08:48:44,241][MainThread:8240][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 08:49:00,547][MainThread:8240][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 08:49:01,867][MainThread:2964][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 08:49:52,743][MainThread:2964][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 08:49:54,113][MainThread:19160][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 08:52:44,253][Thread-3:11332][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:52:44,506][Thread-1:18548][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticOperationSystem]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6613, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6661, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:53:33,805][Thread-1:18548][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticOperationSystem]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6613, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6661, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:53:33,808][Thread-2:7208][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:53:38,233][Thread-3:11332][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:53:38,231][Thread-1:18548][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticOperationSystem]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6613, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6661, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:53:44,324][Thread-4:12844][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 08:53:48,310][Thread-3:11332][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 08:53:48,316][Thread-1:18548][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:53:49,670][Thread-5:18400][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:53:49,690][Thread-1:18548][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticOperationSystem]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6613, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6661, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:54:01,846][Thread-4:12844][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 08:54:02,665][Thread-7:1760][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:54:02,672][Thread-1:18548][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:54:02,685][Thread-3:11332][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:54:02,714][Thread-8:1620][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:54:11,563][Thread-8:1620][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:54:11,563][Thread-6:12768][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:54:11,563][Thread-5:18400][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:54:11,603][Thread-7:1760][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:54:41,854][Thread-8:1620][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:54:41,871][Thread-7:1760][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:54:41,873][Thread-6:12768][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:54:41,895][Thread-3:11332][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:54:44,621][Thread-8:1620][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:54:44,622][Thread-6:12768][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:54:44,653][Thread-3:11332][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:54:44,650][Thread-5:18400][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:54:48,378][Thread-1:18548][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:54:48,393][Thread-6:12768][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:54:48,406][Thread-5:18400][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:54:48,435][Thread-8:1620][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:55:35,249][Thread-5:18400][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:55:35,266][Thread-8:1620][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:55:35,279][Thread-6:12768][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:55:35,307][Thread-7:1760][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:55:40,669][Thread-1:18548][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:55:40,680][Thread-7:1760][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:55:40,681][Thread-6:12768][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:55:40,723][Thread-5:18400][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5327, in get
+    page = int(request.GET.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 08:55:58,414][Thread-5:18400][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:55:58,416][Thread-3:11332][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:55:58,424][Thread-7:1760][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:55:58,468][Thread-8:1620][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5358, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'end_time' in 'where clause'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-03 08:56:55,891][Thread-8:1620][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:56:55,908][Thread-1:18548][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 08:57:02,324][Thread-8:1620][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 08:57:02,340][Thread-1:18548][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:58:57,050][Thread-10:7400][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 08:58:58,768][Thread-10:7400][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 08:59:08,261][Thread-10:7400][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 08:59:08,375][Thread-10:7400][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 08:59:08,385][Thread-11:17364][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 08:59:08,592][Thread-11:17364][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:59:08,596][Thread-14:18876][task_id:lts.views][views.py:4757][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 08:59:08,618][Thread-15:16520][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 08:59:08,618][Thread-12:17252][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:59:08,624][Thread-14:18876][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 08:59:08,638][Thread-14:18876][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:59:08,644][Thread-12:17252][task_id:lts.views][views.py:4815][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 08:59:08,644][Thread-11:17364][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:59:08,671][Thread-10:7400][task_id:lts.views][views.py:8236][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 08:59:16,777][Thread-13:15720][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 08:59:18,748][Thread-13:15720][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 08:59:27,121][Thread-13:15720][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 08:59:27,259][Thread-10:7400][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 08:59:27,273][Thread-13:15720][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 08:59:27,451][Thread-11:17364][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:59:27,452][Thread-10:7400][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:59:27,470][Thread-13:15720][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 08:59:31,563][Thread-13:15720][task_id:lts.views][views.py:6276][INFO][物料查询成功%s]
+[2021-09-03 08:59:34,031][Thread-13:15720][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 08:59:34,034][Thread-11:17364][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 08:59:34,053][Thread-14:18876][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 08:59:34,114][Thread-15:16520][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5358, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'end_time' in 'where clause'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5420, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-03 08:59:47,218][Thread-2:7208][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:02:02,844][MainThread:19160][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 09:02:05,046][MainThread:17252][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 09:08:54,049][Thread-1:12400][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:08:54,060][Thread-5:13004][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:08:54,063][Thread-3:19420][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:08:54,191][Thread-6:14132][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:10:29,903][Thread-7:9400][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:10:29,906][Thread-11:2960][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:10:29,907][Thread-9:10516][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:10:30,102][Thread-12:19048][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:11:05,754][Thread-12:19048][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:11:05,755][Thread-11:2960][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:11:05,756][Thread-7:9400][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:11:05,913][Thread-8:13724][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:11:12,377][Thread-8:13724][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:11:12,378][Thread-10:17292][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:11:12,403][Thread-9:10516][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:11:12,531][Thread-7:9400][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:11:47,676][Thread-7:9400][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:11:47,692][Thread-8:13724][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:11:47,701][Thread-12:19048][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:11:47,818][Thread-11:2960][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:11:57,915][Thread-11:2960][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:12:03,863][Thread-11:2960][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:12:42,368][Thread-8:13724][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:12:42,375][Thread-11:2960][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:12:42,393][Thread-9:10516][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:12:42,514][Thread-7:9400][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:12:49,954][Thread-7:9400][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:13:09,397][Thread-7:9400][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 09:13:10,899][Thread-7:9400][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 09:13:25,185][Thread-7:9400][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 09:13:25,229][Thread-7:9400][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 09:13:25,229][Thread-12:19048][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 09:13:25,469][Thread-11:2960][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:13:25,473][Thread-12:19048][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:13:25,487][Thread-9:10516][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:14:19,455][Thread-8:13724][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:14:19,456][Thread-11:2960][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:14:19,468][Thread-9:10516][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:14:42,356][Thread-11:2960][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:14:42,356][Thread-7:9400][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:14:42,371][Thread-8:13724][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:15:47,728][Thread-13:13176][task_id:lts.views][views.py:9162][ERROR][查询产品出库失败]
+[2021-09-03 09:15:49,551][Thread-13:13176][task_id:lts.views][views.py:9162][ERROR][查询产品出库失败]
+[2021-09-03 09:15:55,103][Thread-13:13176][task_id:lts.views][views.py:9162][ERROR][查询产品出库失败]
+[2021-09-03 09:17:00,801][Thread-14:10524][task_id:lts.views][views.py:9162][ERROR][查询产品出库失败]
+[2021-09-03 09:21:56,000][Thread-15:2296][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 09:21:58,081][Thread-15:2296][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 09:22:09,105][Thread-15:2296][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 09:22:09,181][Thread-16:18864][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 09:22:09,181][Thread-15:2296][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 09:22:09,457][Thread-19:18716][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:22:09,471][Thread-17:15148][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:22:09,483][Thread-16:18864][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:22:09,652][Thread-20:17424][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:22:11,144][Thread-20:17424][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:22:11,160][Thread-16:18864][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 09:26:43,694][Thread-21:11696][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 09:26:46,084][Thread-26:18988][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:26:46,085][Thread-24:11496][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:26:46,101][Thread-22:8400][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:26:46,288][Thread-27:156][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:28:03,124][Thread-15:2296][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:30:58,329][Thread-28:19508][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:30:59,322][Thread-28:19508][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:31:00,253][Thread-28:19508][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:31:01,322][Thread-28:19508][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:37:36,372][Thread-29:17652][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:39:21,514][Thread-30:16536][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:39:28,839][Thread-30:16536][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 09:41:32,818][MainThread:17252][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 09:41:34,159][MainThread:4808][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 09:56:09,711][Thread-6:2916][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:56:09,712][Thread-4:17592][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:56:09,733][Thread-2:8536][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:56:10,025][Thread-7:18532][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 09:56:34,561][Thread-3:18220][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 09:56:34,580][Thread-7:18532][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 09:56:34,586][Thread-4:17592][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 09:56:34,903][Thread-6:2916][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:02:34,954][Thread-8:20092][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:02:34,956][Thread-12:2996][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:02:34,958][Thread-10:20412][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:02:35,273][Thread-13:17912][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:02:37,622][Thread-10:20412][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:02:37,622][Thread-13:17912][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:02:37,629][Thread-9:8240][task_id:lts.views][views.py:6654][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:02:37,922][Thread-12:2996][task_id:lts.views][views.py:5405][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:03:52,927][MainThread:4808][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:03:54,238][MainThread:2916][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:04:20,573][Thread-1:8696][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:04:20,578][Thread-5:4140][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:04:20,594][Thread-3:12208][task_id:lts.views][views.py:6656][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:04:20,875][Thread-6:316][task_id:lts.views][views.py:5407][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:04:36,957][Thread-4:19756][task_id:lts.views][views.py:6656][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:04:36,970][Thread-6:316][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:04:36,975][Thread-5:4140][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:04:37,275][Thread-1:8696][task_id:lts.views][views.py:5407][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:08:34,273][Thread-7:6648][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 10:08:37,109][Thread-7:6648][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 10:08:50,084][Thread-7:6648][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 10:08:50,217][Thread-7:6648][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 10:08:50,232][Thread-8:8500][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 10:08:50,440][Thread-9:8524][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:08:50,440][Thread-10:15048][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:08:50,440][Thread-8:8500][task_id:lts.views][views.py:6656][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:09:51,437][Thread-12:1032][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:09:51,437][Thread-14:12864][task_id:lts.views][views.py:6656][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:09:51,453][Thread-17:16520][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:09:51,456][Thread-16:20220][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:11:28,858][MainThread:2916][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:11:30,443][MainThread:20384][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:13:59,714][Thread-1:20248][task_id:lts.views][views.py:5410][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:14:01,051][Thread-1:20248][task_id:lts.views][views.py:5410][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:14:34,704][MainThread:20384][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:14:36,057][MainThread:8532][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:15:24,196][MainThread:8532][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:15:25,625][MainThread:18332][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:16:34,919][MainThread:18332][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:16:36,226][MainThread:20004][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:17:15,933][Thread-5:2488][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:17:15,946][Thread-1:18504][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:17:15,961][Thread-3:17588][task_id:lts.views][views.py:6667][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:17:16,419][Thread-6:18908][task_id:lts.views][views.py:5417][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:17:24,954][Thread-5:2488][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:17:24,954][Thread-1:18504][task_id:lts.views][views.py:6667][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:17:24,973][Thread-6:18908][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:17:25,517][Thread-2:17040][task_id:lts.views][views.py:5417][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:18:13,245][Thread-6:18908][task_id:lts.views][views.py:6667][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:18:13,263][Thread-5:2488][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:18:13,273][Thread-2:17040][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:18:13,747][Thread-4:14780][task_id:lts.views][views.py:5417][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:19:04,334][Thread-7:19860][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:19:04,336][Thread-11:19396][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:19:04,350][Thread-9:18520][task_id:lts.views][views.py:6667][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:19:04,364][Thread-12:18460][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:20:24,381][Thread-13:3744][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:20:24,411][Thread-18:1008][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:20:24,413][Thread-17:6820][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:20:24,413][Thread-15:17596][task_id:lts.views][views.py:6667][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:21:24,696][MainThread:20004][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:21:27,092][MainThread:18476][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:22:45,041][MainThread:18476][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:22:46,408][MainThread:3368][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:22:58,689][Thread-1:20240][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:22:58,689][Thread-3:16884][task_id:lts.views][views.py:6672][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:22:58,713][Thread-5:20216][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:22:58,714][Thread-6:11284][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:23:07,102][Thread-5:20216][task_id:lts.views][views.py:6672][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:23:07,113][Thread-3:16884][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:23:07,113][Thread-4:18912][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:23:07,143][Thread-1:20240][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:24:26,572][MainThread:3368][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:24:27,917][MainThread:19388][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:24:46,729][MainThread:19388][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:24:48,295][MainThread:16500][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:25:00,563][Thread-5:15432][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:25:00,563][Thread-1:7312][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:25:00,591][Thread-3:14488][task_id:lts.views][views.py:6672][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:25:00,607][Thread-6:17892][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:25:10,918][Thread-6:17892][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 10:25:25,686][Thread-6:17892][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 10:25:31,036][Thread-6:17892][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 10:25:31,200][Thread-6:17892][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 10:25:31,204][Thread-5:15432][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 10:25:31,455][Thread-5:15432][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:25:31,456][Thread-1:7312][task_id:lts.views][views.py:4757][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 10:25:31,458][Thread-4:18804][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 10:25:31,469][Thread-4:18804][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:25:31,474][Thread-3:14488][task_id:lts.views][views.py:6672][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:25:31,490][Thread-1:7312][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 10:25:31,491][Thread-5:15432][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:25:31,494][Thread-4:18804][task_id:lts.views][views.py:8254][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 10:25:31,534][Thread-4:18804][task_id:lts.views][views.py:4815][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 10:25:31,730][Thread-3:14488][task_id:lts.views][views.py:7834][INFO][调取加工过站详情成功:]
+[2021-09-03 10:26:26,609][MainThread:16500][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:26:27,947][MainThread:18940][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:26:47,077][Thread-3:4536][task_id:lts.views][views.py:6672][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:26:47,078][Thread-1:19452][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:26:47,097][Thread-6:19512][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 10:26:47,120][Thread-3:4536][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:26:47,125][Thread-5:16708][task_id:lts.views][views.py:4757][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 10:26:47,143][Thread-1:19452][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:26:47,144][Thread-2:19928][task_id:lts.views][views.py:8254][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 10:26:47,148][Thread-6:19512][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 10:26:47,173][Thread-3:4536][task_id:lts.views][views.py:4815][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 10:26:47,325][Thread-4:12696][task_id:lts.views][views.py:7834][INFO][调取加工过站详情成功:]
+[2021-09-03 10:27:04,958][Thread-4:12696][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:27:04,960][Thread-6:19512][task_id:lts.views][views.py:6672][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:27:04,972][Thread-1:19452][task_id:lts.views][views.py:4757][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 10:27:04,976][Thread-5:16708][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 10:27:04,988][Thread-4:12696][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:27:04,988][Thread-6:19512][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 10:27:05,019][Thread-1:19452][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:27:05,019][Thread-5:16708][task_id:lts.views][views.py:8254][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 10:27:05,065][Thread-2:19928][task_id:lts.views][views.py:4815][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 10:27:05,190][Thread-6:19512][task_id:lts.views][views.py:7834][INFO][调取加工过站详情成功:]
+[2021-09-03 10:27:45,953][Thread-6:19512][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 10:27:47,181][Thread-6:19512][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 10:27:54,356][Thread-6:19512][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 10:27:54,388][Thread-2:19928][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 10:27:54,432][Thread-6:19512][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 10:27:54,671][Thread-2:19928][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:27:54,693][Thread-1:19452][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:27:54,694][Thread-6:19512][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 10:27:58,858][Thread-6:19512][task_id:lts.views][views.py:6294][INFO][物料查询成功%s]
+[2021-09-03 10:28:02,471][Thread-2:19928][task_id:lts.views][views.py:6672][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:28:02,472][Thread-6:19512][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:28:02,473][Thread-3:4536][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:28:02,978][Thread-4:12696][task_id:lts.views][views.py:5422][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:28:35,904][MainThread:18940][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:28:37,636][MainThread:8856][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:35:51,477][MainThread:8856][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:35:52,818][MainThread:5704][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:36:04,364][Thread-6:18988][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:36:04,370][Thread-2:17796][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:36:04,387][Thread-4:17976][task_id:lts.views][views.py:6673][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:36:04,893][Thread-7:18072][task_id:lts.views][views.py:5423][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:36:10,123][Thread-12:15156][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:36:10,133][Thread-10:7020][task_id:lts.views][views.py:6673][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:36:10,146][Thread-8:5524][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:36:10,674][Thread-13:19524][task_id:lts.views][views.py:5423][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:40:35,821][Thread-16:20040][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 10:40:35,825][Thread-18:15432][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:40:35,826][Thread-14:20084][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:40:35,832][Thread-19:16900][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:40:35,848][Thread-17:18008][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 10:40:39,194][Thread-15:19860][task_id:lts.views][views.py:6496][INFO][不分页的物料查询成功]
+[2021-09-03 10:45:13,169][Thread-20:16424][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:45:13,169][Thread-22:7312][task_id:lts.views][views.py:6673][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:45:13,170][Thread-24:17848][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:45:13,768][Thread-25:6508][task_id:lts.views][views.py:5423][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 10:45:20,253][Thread-25:6508][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 10:45:21,549][Thread-25:6508][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 10:45:29,239][Thread-25:6508][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 10:45:29,314][Thread-23:9748][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 10:45:29,314][Thread-25:6508][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 10:45:29,576][Thread-23:9748][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:45:29,600][Thread-25:6508][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 10:45:29,600][Thread-22:7312][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:45:33,654][Thread-22:7312][task_id:lts.views][views.py:6295][INFO][物料查询成功%s]
+[2021-09-03 10:46:04,282][Thread-22:7312][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:46:04,286][Thread-20:16424][task_id:lts.views][views.py:4757][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 10:46:04,290][Thread-24:17848][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 10:46:04,294][Thread-23:9748][task_id:lts.views][views.py:6673][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:46:04,296][Thread-22:7312][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:46:04,302][Thread-24:17848][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:46:04,304][Thread-25:6508][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 10:46:04,320][Thread-23:9748][task_id:lts.views][views.py:8255][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 10:46:04,400][Thread-20:16424][task_id:lts.views][views.py:4815][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 10:46:04,495][Thread-22:7312][task_id:lts.views][views.py:7835][INFO][调取加工过站详情成功:]
+[2021-09-03 10:46:44,628][Thread-22:7312][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:46:44,632][Thread-24:17848][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 10:46:44,632][Thread-21:4140][task_id:lts.views][views.py:6673][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:46:44,633][Thread-25:6508][task_id:lts.views][views.py:4757][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 10:46:44,642][Thread-22:7312][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:46:44,645][Thread-21:4140][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:46:44,645][Thread-24:17848][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 10:46:44,648][Thread-20:16424][task_id:lts.views][views.py:8255][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 10:46:44,764][Thread-22:7312][task_id:lts.views][views.py:4815][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 10:46:44,825][Thread-21:4140][task_id:lts.views][views.py:7835][INFO][调取加工过站详情成功:]
+[2021-09-03 10:47:09,308][Thread-21:4140][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:47:09,310][Thread-25:6508][task_id:lts.views][views.py:6673][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:47:09,314][Thread-24:17848][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 10:47:09,317][Thread-20:16424][task_id:lts.views][views.py:4757][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 10:47:09,320][Thread-21:4140][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:47:09,324][Thread-24:17848][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:47:09,329][Thread-25:6508][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 10:47:09,344][Thread-20:16424][task_id:lts.views][views.py:8255][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 10:47:09,516][Thread-21:4140][task_id:lts.views][views.py:7835][INFO][调取加工过站详情成功:]
+[2021-09-03 10:47:09,518][Thread-24:17848][task_id:lts.views][views.py:4815][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 10:47:13,106][Thread-21:4140][task_id:lts.views][views.py:7835][INFO][调取加工过站详情成功:]
+[2021-09-03 10:50:04,223][MainThread:5704][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 10:50:05,566][MainThread:19792][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 10:51:53,740][Thread-5:17396][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 10:51:53,740][Thread-1:16328][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 10:51:53,741][Thread-3:4140][task_id:lts.views][views.py:6673][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 10:51:54,357][Thread-6:7312][task_id:lts.views][views.py:5423][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-03 11:19:37,741][Thread-7:19524][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-03 11:19:38,315][Thread-7:19524][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-03 13:52:44,662][MainThread:19792][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 13:52:47,198][MainThread:21432][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 13:53:05,496][Thread-1:14108][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 13:53:06,788][Thread-1:14108][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 13:53:13,560][Thread-1:14108][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 13:53:13,650][Thread-1:14108][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 13:53:13,651][Thread-2:14804][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 13:53:13,862][Thread-2:14804][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 13:53:13,864][Thread-6:20816][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 13:53:13,865][Thread-5:18688][task_id:lts.views][views.py:4762][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 13:53:13,865][Thread-3:20496][task_id:lts.views][views.py:6678][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 13:53:13,891][Thread-5:18688][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 13:53:13,911][Thread-3:20496][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 13:53:13,911][Thread-6:20816][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 13:53:13,917][Thread-1:14108][task_id:lts.views][views.py:4820][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 13:53:17,254][Thread-6:20816][task_id:lts.views][views.py:4570][INFO][产品的生命周期最后一站不是它本身或者是前一站]
+[2021-09-03 13:57:28,082][Thread-7:20352][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 13:57:29,618][Thread-7:20352][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 13:57:42,260][Thread-7:20352][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 13:57:42,424][Thread-7:20352][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 13:57:42,445][Thread-8:11568][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 13:57:42,766][Thread-8:11568][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 13:57:42,772][Thread-12:21040][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 13:57:42,774][Thread-11:20748][task_id:lts.views][views.py:4762][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 13:57:42,781][Thread-7:20352][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 13:57:42,784][Thread-11:20748][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 13:57:42,788][Thread-9:21228][task_id:lts.views][views.py:6678][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 13:57:42,820][Thread-7:20352][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 13:57:42,879][Thread-7:20352][task_id:lts.views][views.py:4820][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 13:58:01,555][Thread-7:20352][task_id:lts.views][views.py:4570][INFO][产品的生命周期最后一站不是它本身或者是前一站]
+[2021-09-03 13:58:09,518][MainThread:21432][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 13:58:11,101][MainThread:21508][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 13:58:27,399][Thread-1:18600][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 13:58:27,401][Thread-6:22464][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 13:58:27,410][Thread-6:22464][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 13:58:27,437][Thread-3:20652][task_id:lts.views][views.py:6680][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 13:58:27,440][Thread-2:19992][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 13:58:27,442][Thread-6:22464][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 13:58:27,447][Thread-5:22052][task_id:lts.views][views.py:4764][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 13:58:27,522][Thread-1:18600][task_id:lts.views][views.py:4822][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 13:58:30,528][Thread-1:18600][task_id:lts.views][views.py:4572][INFO][产品的生命周期最后一站不是它本身或者是前一站]
+[2021-09-03 14:01:45,494][Thread-7:14192][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:01:48,133][Thread-7:14192][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:01:49,802][Thread-7:14192][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 14:01:56,759][Thread-7:14192][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 14:01:56,816][Thread-7:14192][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:01:56,831][Thread-8:22044][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:01:57,142][Thread-12:18728][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:01:57,142][Thread-8:22044][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:01:57,148][Thread-11:21392][task_id:lts.views][views.py:4764][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 14:01:57,148][Thread-9:5784][task_id:lts.views][views.py:6680][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 14:01:57,153][Thread-7:14192][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:01:57,160][Thread-9:5784][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:01:57,186][Thread-11:21392][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 14:01:57,246][Thread-7:14192][task_id:lts.views][views.py:4822][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 14:02:06,874][MainThread:21508][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 14:02:08,209][MainThread:22436][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 14:02:13,233][Thread-1:22324][task_id:lts.views][views.py:4583][INFO][产品来源工站找不到数据]
+[2021-09-03 14:11:44,990][MainThread:20312][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 14:12:03,839][Thread-2:7312][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:12:11,714][Thread-1:5400][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:12:14,772][Thread-3:16196][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:12:15,786][Thread-3:16196][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 14:12:23,019][Thread-3:16196][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 14:12:23,110][Thread-3:16196][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:12:23,115][Thread-4:18728][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:12:23,332][Thread-3:16196][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:12:23,337][Thread-7:21200][task_id:lts.views][views.py:4755][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 14:12:23,355][Thread-8:7200][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:12:23,357][Thread-5:19044][task_id:lts.views][views.py:6671][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 14:12:23,365][Thread-7:21200][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:12:23,384][Thread-8:7200][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 14:12:23,386][Thread-4:18728][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:12:23,401][Thread-7:21200][task_id:lts.views][views.py:4813][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 14:12:26,508][Thread-7:21200][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:12:27,527][Thread-7:21200][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 14:12:35,069][Thread-7:21200][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 14:12:35,206][Thread-4:18728][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:12:35,221][Thread-7:21200][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:12:35,372][Thread-7:21200][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:12:35,376][Thread-3:16196][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:12:35,376][Thread-4:18728][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:12:39,259][Thread-4:18728][task_id:lts.views][views.py:6293][INFO][物料查询成功%s]
+[2021-09-03 14:12:41,650][Thread-9:20932][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:12:42,874][Thread-9:20932][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 14:12:49,349][Thread-9:20932][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 14:12:49,457][Thread-9:20932][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:12:49,471][Thread-10:22440][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:12:49,696][Thread-9:20932][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:12:49,697][Thread-13:304][task_id:lts.views][views.py:4755][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 14:12:49,715][Thread-14:15424][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:12:49,715][Thread-10:22440][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:12:49,717][Thread-11:22368][task_id:lts.views][views.py:6671][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 14:12:49,722][Thread-13:304][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 14:12:49,746][Thread-11:22368][task_id:lts.views][views.py:4813][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 14:12:49,746][Thread-12:7048][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:12:49,762][Thread-9:20932][task_id:lts.views][views.py:8253][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 14:12:49,947][Thread-10:22440][task_id:lts.views][views.py:7833][INFO][调取加工过站详情成功:]
+[2021-09-03 14:12:54,610][Thread-10:22440][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:12:56,496][Thread-15:18588][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:12:57,465][Thread-15:18588][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 14:13:05,269][Thread-15:18588][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 14:13:05,394][Thread-15:18588][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:13:05,411][Thread-16:21892][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:13:05,671][Thread-15:18588][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:13:05,678][Thread-20:19448][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:13:05,681][Thread-17:22468][task_id:lts.views][views.py:6671][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 14:13:05,681][Thread-16:21892][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:13:05,686][Thread-19:22420][task_id:lts.views][views.py:4755][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 14:13:05,716][Thread-17:22468][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 14:13:05,716][Thread-16:21892][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:13:05,791][Thread-17:22468][task_id:lts.views][views.py:4813][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 14:15:54,416][Thread-21:21856][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:15:54,622][Thread-26:13112][task_id:lts.views][views.py:4755][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 14:15:54,624][Thread-24:5400][task_id:lts.views][views.py:6671][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 14:15:54,633][Thread-22:19408][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:15:54,636][Thread-23:17392][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:15:54,637][Thread-24:5400][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 14:15:54,637][Thread-27:5056][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:15:54,638][Thread-26:13112][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:15:54,750][Thread-26:13112][task_id:lts.views][views.py:4813][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 14:15:55,726][Thread-29:20940][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:30:54,723][MainThread:20312][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 14:30:56,083][MainThread:22452][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 14:35:09,974][MainThread:22452][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 14:35:11,774][MainThread:19020][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 14:41:09,790][MainThread:19020][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 14:41:11,151][MainThread:22052][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 14:47:03,887][MainThread:20520][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 14:51:57,902][MainThread:20520][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 14:51:59,392][MainThread:4300][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 14:53:23,957][MainThread:4300][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 14:53:25,309][MainThread:18908][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 14:53:33,557][Thread-1:20028][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 14:53:34,786][Thread-1:20028][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 14:54:07,106][Thread-1:20028][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 14:54:07,148][Thread-1:20028][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:54:07,180][Thread-2:21204][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 14:54:07,392][Thread-6:14192][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:54:07,393][Thread-3:19080][task_id:lts.views][views.py:6717][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 14:54:07,393][Thread-5:17204][task_id:lts.views][views.py:4761][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 14:54:07,411][Thread-1:20028][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:54:07,437][Thread-2:21204][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:54:07,445][Thread-5:17204][task_id:lts.views][views.py:7879][INFO][调取加工过站详情成功:]
+[2021-09-03 14:54:07,446][Thread-3:19080][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:54:07,457][Thread-6:14192][task_id:lts.views][views.py:4819][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 14:54:07,473][Thread-1:20028][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 14:54:17,050][Thread-6:14192][task_id:lts.views][views.py:4582][INFO][产品来源工站找不到数据]
+[2021-09-03 14:54:23,857][Thread-1:20028][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:54:23,858][Thread-3:19080][task_id:lts.views][views.py:6717][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 14:54:23,878][Thread-2:21204][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:54:23,888][Thread-6:14192][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:54:23,902][Thread-3:19080][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 14:54:23,903][Thread-5:17204][task_id:lts.views][views.py:4761][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 14:54:23,916][Thread-1:20028][task_id:lts.views][views.py:7879][INFO][调取加工过站详情成功:]
+[2021-09-03 14:54:23,932][Thread-4:20216][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:54:23,962][Thread-1:20028][task_id:lts.views][views.py:4819][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 14:54:25,923][Thread-4:20216][task_id:lts.views][views.py:4526][INFO][上一工站不合格]
+[2021-09-03 14:55:09,893][Thread-1:20028][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:55:09,893][Thread-3:19080][task_id:lts.views][views.py:4761][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 14:55:09,894][Thread-5:17204][task_id:lts.views][views.py:6717][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 14:55:09,918][Thread-6:14192][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:55:09,929][Thread-5:17204][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 14:55:09,929][Thread-3:19080][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:55:09,946][Thread-4:20216][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:55:09,951][Thread-1:20028][task_id:lts.views][views.py:7879][INFO][调取加工过站详情成功:]
+[2021-09-03 14:55:09,988][Thread-3:19080][task_id:lts.views][views.py:4819][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 14:55:12,141][Thread-3:19080][task_id:lts.views][views.py:4582][INFO][产品来源工站找不到数据]
+[2021-09-03 14:55:22,515][Thread-1:20028][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:55:22,516][Thread-5:17204][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 14:55:22,533][Thread-4:20216][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:55:22,533][Thread-3:19080][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:55:22,538][Thread-2:21204][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:55:24,739][Thread-2:21204][task_id:lts.views][views.py:8149][INFO][生命周期成功:]
+[2021-09-03 14:55:25,904][Thread-1:20028][task_id:lts.views][views.py:6540][INFO][不分页的物料查询成功]
+[2021-09-03 14:55:33,899][MainThread:18908][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 14:55:35,340][MainThread:21216][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 14:56:01,075][Thread-1:9144][task_id:lts.views][views.py:8154][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 14:56:07,875][Thread-1:9144][task_id:lts.views][views.py:8149][INFO][生命周期成功:]
+[2021-09-03 14:57:23,559][MainThread:21216][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 14:57:25,544][MainThread:21236][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 14:57:29,924][Thread-6:4704][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 14:57:29,935][Thread-1:17292][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:57:29,936][Thread-5:6520][task_id:lts.views][views.py:4762][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 14:57:29,939][Thread-6:4704][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 14:57:29,945][Thread-4:14192][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 14:57:29,949][Thread-5:6520][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 14:57:29,950][Thread-1:17292][task_id:lts.views][views.py:7880][INFO][调取加工过站详情成功:]
+[2021-09-03 14:57:29,954][Thread-6:4704][task_id:lts.views][views.py:4820][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 14:57:29,962][Thread-3:17228][task_id:lts.views][views.py:6718][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 14:57:31,833][Thread-2:21464][task_id:lts.views][views.py:4583][INFO][产品来源工站找不到数据]
+[2021-09-03 15:06:40,997][MainThread:21236][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:06:42,836][MainThread:10088][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:20:41,574][MainThread:10088][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:20:44,125][MainThread:20732][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:20:46,545][Thread-2:23360][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:20:46,546][Thread-3:2884][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:20:46,546][Thread-4:21024][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:20:46,549][Thread-6:22172][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:20:46,556][Thread-5:11116][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:20:48,557][Thread-6:22172][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:20:48,561][Thread-2:23360][task_id:lts.views][views.py:6702][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 15:20:48,571][Thread-4:21024][task_id:lts.views][views.py:4746][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:20:48,582][Thread-3:2884][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:20:48,586][Thread-6:22172][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:20:48,587][Thread-5:11116][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:20:48,598][Thread-2:23360][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:20:48,616][Thread-3:2884][task_id:lts.views][views.py:7864][INFO][调取加工过站详情成功:]
+[2021-09-03 15:20:48,620][Thread-6:22172][task_id:lts.views][views.py:4804][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:20:50,124][Thread-1:18400][task_id:lts.views][views.py:6525][INFO][不分页的物料查询成功]
+[2021-09-03 15:21:02,449][Thread-1:18400][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.QualifiedMatterCode didn't return an HttpResponse object. It returned None instead.
+[2021-09-03 15:21:09,653][Thread-6:22172][task_id:lts.views][views.py:6702][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 15:21:09,657][Thread-5:11116][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:21:09,675][Thread-2:23360][task_id:lts.views][views.py:4746][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:21:09,675][Thread-4:21024][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:21:09,676][Thread-3:2884][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:21:09,706][Thread-1:18400][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:21:09,711][Thread-4:21024][task_id:lts.views][views.py:4804][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:21:09,724][Thread-3:2884][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:21:09,725][Thread-2:23360][task_id:lts.views][views.py:7864][INFO][调取加工过站详情成功:]
+[2021-09-03 15:21:11,996][Thread-3:2884][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.QualifiedMatterCode didn't return an HttpResponse object. It returned None instead.
+[2021-09-03 15:22:13,578][MainThread:20732][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:22:15,142][MainThread:19372][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:22:47,314][Thread-1:20848][task_id:lts.views][views.py:4747][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:22:47,374][Thread-1:20848][task_id:lts.views][views.py:4805][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:23:45,733][MainThread:19372][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:23:47,657][MainThread:22980][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:23:50,269][Thread-1:12148][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4531, in get
+    des = db.execute_sql(conn, sql_work_id)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4591, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'InterfaceError' is not JSON serializable
+[2021-09-03 15:24:57,525][MainThread:22980][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:24:58,869][MainThread:22800][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:25:53,818][MainThread:22800][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:25:55,413][MainThread:21668][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:25:58,407][Thread-1:11196][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4531, in get
+    des = db.execute_sql(conn, sql_work_id)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4592, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'InterfaceError' is not JSON serializable
+[2021-09-03 15:26:22,563][MainThread:21668][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:26:24,799][MainThread:23092][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:26:26,824][Thread-1:10160][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.QualifiedMatterCode didn't return an HttpResponse object. It returned None instead.
+[2021-09-03 15:26:26,999][Thread-2:19876][task_id:lts.views][views.py:4749][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:26:27,044][Thread-2:19876][task_id:lts.views][views.py:4807][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:27:24,219][MainThread:23092][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:27:25,669][MainThread:6520][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:27:36,351][Thread-1:16252][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.QualifiedMatterCode didn't return an HttpResponse object. It returned None instead.
+[2021-09-03 15:31:13,640][MainThread:22464][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:31:17,736][Thread-5:20044][task_id:lts.views][views.py:4751][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:31:17,738][Thread-3:18744][task_id:lts.views][views.py:6707][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 15:31:17,741][Thread-6:11224][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:31:17,744][Thread-2:20816][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:31:17,753][Thread-6:11224][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:31:17,775][Thread-5:20044][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:31:17,805][Thread-4:21940][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:31:17,806][Thread-6:11224][task_id:lts.views][views.py:7869][INFO][调取加工过站详情成功:]
+[2021-09-03 15:31:17,809][Thread-3:18744][task_id:lts.views][views.py:4809][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:31:24,020][Thread-6:11224][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.QualifiedMatterCode didn't return an HttpResponse object. It returned None instead.
+[2021-09-03 15:34:17,435][MainThread:22464][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:34:20,029][MainThread:19340][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:34:25,514][Thread-1:16640][task_id:lts.views][views.py:4548][INFO][产品最后一站不是上级工站！]
+[2021-09-03 15:34:25,757][Thread-1:16640][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4549, in get
+    db.close_connection(conn)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 86, in close_connection
+    conn.close()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 404, in close
+    raise err.Error("Already closed")
+pymysql.err.Error: Already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4594, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Error' is not JSON serializable
+[2021-09-03 15:37:02,526][MainThread:11184][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:37:06,941][Thread-6:22256][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:37:06,941][Thread-5:19080][task_id:lts.views][views.py:4751][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:37:06,942][Thread-2:15912][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:37:06,943][Thread-3:9676][task_id:lts.views][views.py:6707][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 15:37:06,957][Thread-6:22256][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:37:06,960][Thread-1:22316][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:37:06,974][Thread-4:9528][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:37:06,987][Thread-1:22316][task_id:lts.views][views.py:7869][INFO][调取加工过站详情成功:]
+[2021-09-03 15:37:07,023][Thread-4:9528][task_id:lts.views][views.py:4809][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:37:09,422][Thread-4:9528][task_id:lts.views][views.py:4547][INFO][产品最后一站不是上级工站！]
+[2021-09-03 15:37:09,677][Thread-4:9528][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4548, in get
+    db.close_connection(conn)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 86, in close_connection
+    conn.close()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 404, in close
+    raise err.Error("Already closed")
+pymysql.err.Error: Already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4594, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Error' is not JSON serializable
+[2021-09-03 15:38:47,992][MainThread:11184][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:38:49,954][MainThread:8976][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:38:53,475][Thread-1:18652][task_id:lts.views][views.py:4549][INFO][产品最后一站不是上级工站！]
+[2021-09-03 15:38:53,721][Thread-1:18652][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticQualifiedMatterCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4550, in get
+    db.close_connection(conn)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 86, in close_connection
+    conn.close()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 404, in close
+    raise err.Error("Already closed")
+pymysql.err.Error: Already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4596, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Error' is not JSON serializable
+[2021-09-03 15:40:08,529][MainThread:8976][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:40:10,384][MainThread:21372][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:40:52,275][MainThread:21372][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:40:54,468][MainThread:13780][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:44:11,107][MainThread:13780][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:44:13,944][MainThread:21380][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:44:46,312][MainThread:21380][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:44:47,832][MainThread:15424][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:45:54,781][MainThread:15424][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:45:57,076][MainThread:20936][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:46:44,374][MainThread:20936][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:46:46,675][MainThread:19876][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:46:53,066][MainThread:19876][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:46:54,704][MainThread:21060][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:47:24,996][MainThread:21060][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:47:27,449][MainThread:23104][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:47:34,428][Thread-1:7332][task_id:lts.views][views.py:4562][INFO][产品最后一站不是上级工站！]
+[2021-09-03 15:47:41,646][Thread-1:7332][task_id:lts.views][views.py:4562][INFO][产品最后一站不是上级工站！]
+[2021-09-03 15:47:56,623][Thread-1:7332][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:47:56,623][Thread-3:6680][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:47:56,623][Thread-5:20880][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:47:56,623][Thread-4:21928][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:47:56,653][Thread-6:22508][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:47:58,357][Thread-6:22508][task_id:lts.views][views.py:8151][INFO][生命周期成功:]
+[2021-09-03 15:48:00,065][Thread-2:11140][task_id:lts.views][views.py:6542][INFO][不分页的物料查询成功]
+[2021-09-03 15:48:44,633][Thread-6:22508][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:48:44,633][Thread-3:6680][task_id:lts.views][views.py:4763][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:48:44,634][Thread-5:20880][task_id:lts.views][views.py:6719][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 15:48:44,635][Thread-1:7332][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:48:44,670][Thread-5:20880][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:48:44,670][Thread-3:6680][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:48:44,685][Thread-1:7332][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:48:44,702][Thread-6:22508][task_id:lts.views][views.py:7881][INFO][调取加工过站详情成功:]
+[2021-09-03 15:48:44,716][Thread-5:20880][task_id:lts.views][views.py:4821][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:48:48,206][Thread-5:20880][task_id:lts.views][views.py:4570][INFO][产品合格,可以进入下一步]
+[2021-09-03 15:49:27,192][Thread-6:22508][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:49:27,192][Thread-3:6680][task_id:lts.views][views.py:4763][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:49:27,193][Thread-1:7332][task_id:lts.views][views.py:6719][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 15:49:27,217][Thread-4:21928][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:49:27,217][Thread-1:7332][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:49:27,223][Thread-3:6680][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:49:27,250][Thread-3:6680][task_id:lts.views][views.py:7881][INFO][调取加工过站详情成功:]
+[2021-09-03 15:49:27,260][Thread-4:21928][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:49:27,275][Thread-1:7332][task_id:lts.views][views.py:4821][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:49:29,255][Thread-4:21928][task_id:lts.views][views.py:4575][INFO][产品的生命周期最后一站检查结果是不合格的不能进入工站]
+[2021-09-03 15:50:27,314][MainThread:23104][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:50:29,676][MainThread:19136][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:50:40,301][Thread-6:23416][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:50:40,303][Thread-5:11100][task_id:lts.views][views.py:4763][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:50:40,314][Thread-2:21308][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:50:40,325][Thread-1:6800][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:50:40,329][Thread-3:5232][task_id:lts.views][views.py:6719][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 15:50:40,344][Thread-4:10928][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:50:40,345][Thread-6:23416][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:50:40,361][Thread-1:6800][task_id:lts.views][views.py:7881][INFO][调取加工过站详情成功:]
+[2021-09-03 15:50:40,390][Thread-6:23416][task_id:lts.views][views.py:4821][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:50:44,702][Thread-6:23416][task_id:lts.views][views.py:4513][ERROR][产品编码已经在数据库中,请扫下一个]
+[2021-09-03 15:50:53,592][Thread-6:23416][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 15:50:54,738][Thread-6:23416][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 15:51:01,494][Thread-7:23420][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 15:51:02,333][Thread-7:23420][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 15:51:08,238][Thread-7:23420][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 15:51:08,283][Thread-7:23420][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 15:51:08,297][Thread-8:18456][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 15:51:08,516][Thread-9:14692][task_id:lts.views][views.py:6719][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 15:51:08,519][Thread-11:19980][task_id:lts.views][views.py:4763][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:51:08,523][Thread-12:22436][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:51:08,528][Thread-7:23420][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:51:08,543][Thread-8:18456][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:51:08,557][Thread-10:20500][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:51:08,561][Thread-7:23420][task_id:lts.views][views.py:8301][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 15:51:08,571][Thread-12:22436][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:51:08,573][Thread-8:18456][task_id:lts.views][views.py:4821][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:51:08,724][Thread-9:14692][task_id:lts.views][views.py:7881][INFO][调取加工过站详情成功:]
+[2021-09-03 15:51:20,383][Thread-9:14692][task_id:lts.views][views.py:4513][ERROR][产品编码已经在数据库中,请扫下一个]
+[2021-09-03 15:51:22,972][Thread-9:14692][task_id:lts.views][views.py:4590][INFO][此产品码工站是第一工站]
+[2021-09-03 15:51:37,918][Thread-9:14692][task_id:lts.views][views.py:4015][INFO][加工过站信息新增成功%s]
+[2021-09-03 15:51:37,984][Thread-9:14692][task_id:lts.views][views.py:4763][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:51:38,044][Thread-9:14692][task_id:lts.views][views.py:4821][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:51:38,136][Thread-8:18456][task_id:lts.views][views.py:7881][INFO][调取加工过站详情成功:]
+[2021-09-03 15:52:45,926][MainThread:19136][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:52:47,390][MainThread:9692][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:52:52,734][Thread-6:32][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:52:52,735][Thread-5:11184][task_id:lts.views][views.py:4755][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:52:52,735][Thread-3:9624][task_id:lts.views][views.py:6711][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 15:52:52,742][Thread-2:18888][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:52:52,747][Thread-1:3676][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:52:52,749][Thread-6:32][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:52:52,750][Thread-3:9624][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:52:52,787][Thread-5:11184][task_id:lts.views][views.py:8293][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 15:52:52,802][Thread-6:32][task_id:lts.views][views.py:4813][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:52:52,959][Thread-2:18888][task_id:lts.views][views.py:7873][INFO][调取加工过站详情成功:]
+[2021-09-03 15:52:57,365][Thread-2:18888][task_id:lts.views][views.py:4513][ERROR][产品编码已经在数据库中,请扫下一个]
+[2021-09-03 15:53:00,646][Thread-2:18888][task_id:lts.views][views.py:4513][ERROR][产品编码已经在数据库中,请扫下一个]
+[2021-09-03 15:53:02,859][Thread-2:18888][task_id:lts.views][views.py:4513][ERROR][产品编码已经在数据库中,请扫下一个]
+[2021-09-03 15:53:05,493][Thread-2:18888][task_id:lts.views][views.py:4582][INFO][此产品码工站是第一工站]
+[2021-09-03 15:53:20,955][MainThread:9692][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:53:22,864][MainThread:23404][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:53:32,349][Thread-6:5460][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 15:53:32,352][Thread-2:18440][task_id:lts.views][views.py:6710][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 15:53:32,361][Thread-5:1096][task_id:lts.views][views.py:4754][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 15:53:32,362][Thread-1:4872][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:53:32,390][Thread-4:21432][task_id:lts.views][views.py:8292][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 15:53:32,390][Thread-6:5460][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 15:53:32,391][Thread-3:22944][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 15:53:32,391][Thread-2:18440][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 15:53:32,396][Thread-1:4872][task_id:lts.views][views.py:4812][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 15:53:32,562][Thread-5:1096][task_id:lts.views][views.py:7872][INFO][调取加工过站详情成功:]
+[2021-09-03 15:59:08,848][MainThread:23404][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:59:10,403][MainThread:18008][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 15:59:40,229][MainThread:18008][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 15:59:42,725][MainThread:23540][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:00:47,703][Thread-3:21512][task_id:lts.views][views.py:6705][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 16:00:47,712][Thread-6:23192][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:00:47,713][Thread-5:22328][task_id:lts.views][views.py:4749][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 16:00:47,724][Thread-2:9872][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:00:47,731][Thread-3:21512][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 16:00:47,731][Thread-5:22328][task_id:lts.views][views.py:8287][INFO][不分页返回工站下 不良信息原因内码和名称成功%s]
+[2021-09-03 16:00:47,731][Thread-4:23156][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:00:47,742][Thread-6:23192][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:00:47,754][Thread-2:9872][task_id:lts.views][views.py:4807][INFO][工站的物料领料信息 安装数量成功%s]
+[2021-09-03 16:00:47,920][Thread-1:6936][task_id:lts.views][views.py:7867][INFO][调取加工过站详情成功:]
+[2021-09-03 16:05:20,318][MainThread:23540][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:05:22,368][MainThread:10568][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:06:58,794][MainThread:10568][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:07:00,141][MainThread:19084][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:10:39,244][MainThread:19084][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:10:41,550][MainThread:17604][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:10:44,097][Thread-1:22348][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 16:10:45,508][Thread-1:22348][task_id:lts.views][views.py:4280][INFO][返回产品的编号和名称成功%s]
+[2021-09-03 16:10:46,642][Thread-1:22348][task_id:lts.views][views.py:4245][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-03 16:10:56,271][Thread-1:22348][task_id:lts.views][views.py:274][INFO][登录成功]
+[2021-09-03 16:10:56,373][Thread-1:22348][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 16:10:56,402][Thread-2:304][task_id:lts.views][views.py:4148][INFO][当前登录人的信息返回成功%s]
+[2021-09-03 16:10:56,588][Thread-1:22348][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:10:56,591][Thread-3:9868][task_id:lts.views][views.py:6596][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 16:10:56,604][Thread-6:21244][task_id:lts.views][views.py:4640][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 16:10:56,610][Thread-4:20900][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:10:56,617][Thread-1:22348][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:10:56,633][Thread-2:304][task_id:lts.views][views.py:8347][INFO][不良品进入维修工站成功%s]
+[2021-09-03 16:10:56,634][Thread-3:9868][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:12:48,335][MainThread:17604][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:12:50,931][MainThread:22252][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:12:54,857][MainThread:22252][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:12:56,224][MainThread:20488][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:13:15,870][MainThread:20488][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:13:18,425][MainThread:19532][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:14:04,670][MainThread:19532][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:14:06,013][MainThread:3676][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:14:46,043][Thread-3:21464][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:14:46,044][Thread-6:7072][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:14:46,046][Thread-1:15276][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:14:46,055][Thread-5:12684][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 16:14:46,057][Thread-4:19384][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:14:47,626][Thread-4:19384][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:14:49,675][Thread-2:10772][task_id:lts.views][views.py:6402][INFO][不分页的物料查询成功]
+[2021-09-03 16:18:46,299][MainThread:15048][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:18:48,481][Thread-4:22896][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 16:18:48,481][Thread-3:19520][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:18:48,485][Thread-1:9608][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:18:48,519][Thread-6:13348][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:18:48,521][Thread-5:20756][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:18:50,186][Thread-5:20756][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:18:53,000][Thread-4:22896][task_id:lts.views][views.py:6402][INFO][不分页的物料查询成功]
+[2021-09-03 16:19:19,618][MainThread:15048][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-03 16:19:20,931][MainThread:21428][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:19:24,256][Thread-1:21152][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:19:34,812][MainThread:21428][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-03 16:19:36,136][MainThread:20508][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:19:38,685][Thread-1:10732][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:20:19,721][MainThread:20508][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-03 16:20:21,059][MainThread:22976][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:20:24,284][Thread-1:10900][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:22:17,268][MainThread:22976][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-03 16:22:18,576][MainThread:22156][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:22:21,492][Thread-1:20344][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:22:32,509][Thread-1:20344][task_id:lts.views][views.py:8016][ERROR][生命周期失败'str' object has no attribute 'strftime']
+[2021-09-03 16:22:43,588][MainThread:22156][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-03 16:22:44,926][MainThread:21192][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:22:49,551][Thread-1:22412][task_id:lts.views][views.py:8011][INFO][生命周期成功:]
+[2021-09-03 16:23:01,209][MainThread:21192][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-03 16:23:02,546][MainThread:21908][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:25:44,760][MainThread:21908][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-03 16:25:46,063][MainThread:7048][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:25:48,948][Thread-1:21760][task_id:lts.views][views.py:8011][INFO][生命周期成功:]
+[2021-09-03 16:26:33,391][MainThread:7048][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-03 16:26:34,718][MainThread:15396][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:26:38,272][Thread-1:17452][task_id:lts.views][views.py:8011][INFO][生命周期成功:]
+[2021-09-03 16:27:13,729][Thread-1:17452][task_id:lts.views][views.py:8011][INFO][生命周期成功:]
+[2021-09-03 16:27:19,868][Thread-1:17452][task_id:lts.views][views.py:8011][INFO][生命周期成功:]
+[2021-09-03 16:27:32,739][Thread-4:11184][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:27:32,739][Thread-3:19372][task_id:lts.views][views.py:6579][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 16:27:32,740][Thread-6:9344][task_id:lts.views][views.py:4623][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 16:27:32,743][Thread-2:22328][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:27:32,750][Thread-4:11184][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:27:32,752][Thread-6:9344][task_id:lts.views][views.py:8330][INFO][不良品进入维修工站成功%s]
+[2021-09-03 16:27:32,769][Thread-3:19372][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:27:35,247][Thread-6:9344][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:27:35,264][Thread-5:23540][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:27:35,266][Thread-1:17452][task_id:lts.views][views.py:6579][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 16:27:35,292][Thread-2:22328][task_id:lts.views][views.py:4623][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 16:27:35,307][Thread-6:9344][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:27:35,308][Thread-3:19372][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:27:35,309][Thread-1:17452][task_id:lts.views][views.py:8330][INFO][不良品进入维修工站成功%s]
+[2021-09-03 16:28:06,200][MainThread:15396][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-03 16:28:07,530][MainThread:13796][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:28:14,073][MainThread:13796][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-03 16:28:15,391][MainThread:20344][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:28:38,119][Thread-5:20564][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 16:28:38,119][Thread-4:20040][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:28:38,132][Thread-1:10880][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:28:38,133][Thread-6:23416][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:28:38,147][Thread-3:14372][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:28:41,708][Thread-2:11292][task_id:lts.views][views.py:6402][INFO][不分页的物料查询成功]
+[2021-09-03 16:28:47,380][Thread-2:11292][task_id:lts.views][views.py:8011][INFO][生命周期成功:]
+[2021-09-03 16:28:51,859][Thread-6:23416][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:28:51,859][Thread-3:14372][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:28:51,867][Thread-5:20564][task_id:lts.views][views.py:4623][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 16:28:51,867][Thread-1:10880][task_id:lts.views][views.py:6579][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 16:28:51,896][Thread-4:20040][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:28:51,896][Thread-2:11292][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:28:51,910][Thread-3:14372][task_id:lts.views][views.py:8330][INFO][不良品进入维修工站成功%s]
+[2021-09-03 16:28:54,889][Thread-5:20564][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:28:54,889][Thread-4:20040][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:28:54,891][Thread-1:10880][task_id:lts.views][views.py:4623][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 16:28:54,912][Thread-2:11292][task_id:lts.views][views.py:6579][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 16:28:54,914][Thread-3:14372][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:28:54,921][Thread-1:10880][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:28:54,937][Thread-4:20040][task_id:lts.views][views.py:8330][INFO][不良品进入维修工站成功%s]
+[2021-09-03 16:29:04,131][Thread-3:14372][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:29:04,131][Thread-6:23416][task_id:lts.views][views.py:4051][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 16:29:04,140][Thread-2:11292][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:29:04,140][Thread-5:20564][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:29:04,151][Thread-4:20040][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:29:05,977][Thread-4:20040][task_id:lts.views][views.py:8011][INFO][生命周期成功:]
+[2021-09-03 16:29:07,546][Thread-3:14372][task_id:lts.views][views.py:6402][INFO][不分页的物料查询成功]
+[2021-09-03 16:29:08,392][Thread-4:20040][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:29:08,413][Thread-2:11292][task_id:lts.views][views.py:3338][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 16:29:08,414][Thread-5:20564][task_id:lts.views][views.py:6579][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 16:29:08,418][Thread-6:23416][task_id:lts.views][views.py:4623][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 16:29:08,442][Thread-3:14372][task_id:lts.views][views.py:3265][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 16:29:08,443][Thread-4:20040][task_id:lts.views][views.py:3297][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 16:29:08,473][Thread-2:11292][task_id:lts.views][views.py:8330][INFO][不良品进入维修工站成功%s]
+[2021-09-03 16:38:18,863][MainThread:20344][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:47:52,681][MainThread:20220][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:48:13,768][Thread-1:21416][task_id:lts.views][views.py:201][ERROR][数据导出操作失败]
+[2021-09-03 16:48:35,157][Thread-1:21416][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticDeleteFinishedCodeGetMatterCodeID]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4949, in get
+    finished_product_code_sql = "and finished_product_code = " + "'" + finished_product_code + "'"
+TypeError: must be str, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5024, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+[2021-09-03 16:49:15,466][MainThread:20220][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:49:17,251][MainThread:23428][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:49:22,288][Thread-1:9344][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticDeleteFinishedCodeGetMatterCodeID]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4988, in get
+    db.execute_sql(conn, sql_delet)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'co2.none' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5024, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-09-03 16:50:48,571][MainThread:23428][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:50:50,050][MainThread:22204][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:50:53,924][Thread-1:21124][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticDeleteFinishedCodeGetMatterCodeID]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4989, in get
+    db.execute_sql(conn, sql_delet)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'co2.none' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5025, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-09-03 16:52:03,478][MainThread:22204][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:52:05,831][MainThread:20516][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 16:52:13,183][Thread-1:10788][task_id:lts.views][views.py:5018][INFO][解绑或者重置成品的物料内码成功%s]
+[2021-09-03 16:54:10,308][MainThread:20516][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-03 16:54:11,628][MainThread:20416][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 17:24:33,344][MainThread:10284][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 17:24:43,496][Thread-3:2036][task_id:lts.views][views.py:3380][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 17:24:43,498][Thread-5:6608][task_id:lts.views][views.py:3380][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 17:24:43,523][Thread-4:19600][task_id:lts.views][views.py:6624][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 17:24:43,527][Thread-6:9688][task_id:lts.views][views.py:3307][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 17:24:43,528][Thread-5:6608][task_id:lts.views][views.py:8375][INFO][不良品进入维修工站成功%s]
+[2021-09-03 17:24:43,531][Thread-7:20872][task_id:lts.views][views.py:4665][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 17:24:43,531][Thread-3:2036][task_id:lts.views][views.py:3339][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 17:24:45,880][Thread-5:6608][task_id:lts.views][views.py:4783][INFO][成品码得到成品码下面的物料等信息成功%s]
+[2021-09-03 17:24:49,982][Thread-5:6608][task_id:lts.views][views.py:5054][INFO][解绑或者重置成品的物料内码成功%s]
+[2021-09-03 17:24:50,044][Thread-5:6608][task_id:lts.views][views.py:8375][INFO][不良品进入维修工站成功%s]
+[2021-09-03 17:25:12,189][Thread-5:6608][task_id:lts.views][views.py:3339][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 17:25:12,208][Thread-7:20872][task_id:lts.views][views.py:4093][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-03 17:25:12,208][Thread-4:19600][task_id:lts.views][views.py:3307][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 17:25:12,215][Thread-3:2036][task_id:lts.views][views.py:3339][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 17:25:12,238][Thread-2:21024][task_id:lts.views][views.py:3380][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 17:25:14,096][Thread-2:21024][task_id:lts.views][views.py:8056][INFO][生命周期成功:]
+[2021-09-03 17:25:16,130][Thread-5:6608][task_id:lts.views][views.py:6447][INFO][不分页的物料查询成功]
+[2021-09-03 17:25:16,130][Thread-4:19600][task_id:lts.views][views.py:3380][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 17:25:16,161][Thread-6:9688][task_id:lts.views][views.py:3380][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 17:25:16,162][Thread-3:2036][task_id:lts.views][views.py:6624][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 17:25:16,188][Thread-4:19600][task_id:lts.views][views.py:3307][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 17:25:16,190][Thread-2:21024][task_id:lts.views][views.py:8375][INFO][不良品进入维修工站成功%s]
+[2021-09-03 17:25:16,193][Thread-5:6608][task_id:lts.views][views.py:4665][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 17:25:16,193][Thread-6:9688][task_id:lts.views][views.py:3339][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 17:26:47,644][Thread-8:22808][task_id:lts.views][views.py:4783][INFO][成品码得到成品码下面的物料等信息成功%s]
+[2021-09-03 17:26:55,875][Thread-8:22808][task_id:lts.views][views.py:4961][INFO][修改过站信息成功]
+[2021-09-03 17:26:56,222][Thread-8:22808][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticModifyInWorkStation]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 8357, in get
+    ds = ds.strftime("%Y-%m-%d %H:%M:%S")
+AttributeError: 'str' object has no attribute 'strftime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 8391, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'AttributeError' is not JSON serializable
+[2021-09-03 17:31:18,192][Thread-9:20960][task_id:lts.views][views.py:4961][INFO][修改过站信息成功]
+[2021-09-03 17:31:18,282][Thread-9:20960][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticModifyInWorkStation]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 8357, in get
+    ds = ds.strftime("%Y-%m-%d %H:%M:%S")
+AttributeError: 'str' object has no attribute 'strftime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 8391, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'AttributeError' is not JSON serializable
+[2021-09-03 17:31:36,431][Thread-9:20960][task_id:lts.views][views.py:4783][INFO][成品码得到成品码下面的物料等信息成功%s]
+[2021-09-03 17:31:38,109][Thread-9:20960][task_id:lts.views][views.py:4783][INFO][成品码得到成品码下面的物料等信息成功%s]
+[2021-09-03 17:31:39,841][Thread-9:20960][task_id:lts.views][views.py:4783][INFO][成品码得到成品码下面的物料等信息成功%s]
+[2021-09-03 17:32:02,879][Thread-10:20816][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-03 17:32:03,487][Thread-10:20816][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-03 17:32:04,087][Thread-10:20816][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-03 17:32:04,688][Thread-10:20816][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-03 17:32:05,305][Thread-10:20816][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-03 17:33:08,583][Thread-11:20764][task_id:lts.views][views.py:4783][INFO][成品码得到成品码下面的物料等信息成功%s]
+[2021-09-03 18:14:39,307][MainThread:12032][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-03 18:16:09,045][Thread-3:24080][task_id:lts.views][views.py:3380][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 18:16:09,056][Thread-7:17424][task_id:lts.views][views.py:4665][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-03 18:16:09,063][Thread-5:16900][task_id:lts.views][views.py:3380][INFO][返回工站的内码和名称成功%s]
+[2021-09-03 18:16:09,084][Thread-6:19424][task_id:lts.views][views.py:3339][INFO][返回人员的内码和名字成功%s]
+[2021-09-03 18:16:09,084][Thread-2:23096][task_id:lts.views][views.py:3307][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-03 18:16:09,085][Thread-4:23920][task_id:lts.views][views.py:6624][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-03 18:16:09,110][Thread-3:24080][task_id:lts.views][views.py:8379][INFO][不良品进入维修工站成功%s]

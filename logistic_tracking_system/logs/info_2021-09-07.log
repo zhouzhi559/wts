@@ -1,0 +1,1475 @@
+[2021-09-07 08:34:55,715][MainThread:13748][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 08:41:21,531][MainThread:13748][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 08:41:22,840][MainThread:16268][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 09:29:57,583][Thread-1:17900][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-07 09:29:58,149][Thread-1:17900][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-07 09:29:58,739][Thread-1:17900][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-07 09:29:59,364][Thread-1:17900][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-09-07 10:25:59,571][MainThread:7312][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:26:48,794][Thread-1:15944][task_id:lts.views][views.py:7976][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-07 10:28:45,929][MainThread:7312][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 10:28:47,272][MainThread:14412][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:28:50,607][Thread-1:19524][task_id:lts.views][views.py:7976][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-07 10:29:37,956][MainThread:14412][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 10:29:39,300][MainThread:11356][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:29:41,118][Thread-1:13696][task_id:lts.views][views.py:7976][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-07 10:31:45,903][MainThread:11356][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 10:31:47,265][MainThread:18748][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:33:36,326][MainThread:18748][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 10:33:37,644][MainThread:3380][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:33:44,550][Thread-1:16692][task_id:lts.views][views.py:7976][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-07 10:36:29,641][MainThread:3380][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 10:36:30,941][MainThread:15356][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:39:06,340][MainThread:15356][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 10:39:07,681][MainThread:20340][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:41:10,849][Thread-1:20264][task_id:lts.views][views.py:7976][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-07 10:42:48,217][MainThread:20340][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 10:42:49,567][MainThread:20164][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:42:59,751][Thread-1:20156][task_id:lts.views][views.py:7976][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-07 10:44:28,018][MainThread:20164][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 10:44:29,324][MainThread:18876][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:45:07,780][Thread-1:11956][task_id:lts.views][views.py:7976][ERROR][生命周期失败'<' not supported between instances of 'NoneType' and 'str']
+[2021-09-07 10:48:37,435][MainThread:18876][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 10:48:38,744][MainThread:20452][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:48:47,612][Thread-1:6520][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 10:49:01,774][MainThread:20452][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 10:49:03,102][MainThread:20340][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:50:55,909][MainThread:20340][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 10:50:57,236][MainThread:11692][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:51:05,880][MainThread:11692][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 10:51:07,534][MainThread:11912][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:51:38,242][MainThread:11912][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 10:51:39,591][MainThread:3556][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:53:13,201][MainThread:3556][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 10:53:15,187][MainThread:9400][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:56:30,332][MainThread:9400][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 10:56:31,696][MainThread:16068][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 10:57:19,687][MainThread:16068][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 10:57:21,174][MainThread:20476][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:04:58,423][MainThread:20476][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:04:59,942][MainThread:20880][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:07:23,930][MainThread:20880][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:07:25,273][MainThread:18452][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:09:33,761][MainThread:18452][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:09:35,583][MainThread:20732][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:11:36,758][MainThread:20732][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:11:38,087][MainThread:15580][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:14:46,401][MainThread:15580][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:14:47,750][MainThread:15652][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:20:17,445][MainThread:15652][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:20:18,831][MainThread:18724][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:20:23,589][MainThread:18724][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:20:25,197][MainThread:20324][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:20:29,481][MainThread:20324][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:20:30,831][MainThread:20952][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:20:34,417][MainThread:20952][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:20:35,726][MainThread:12300][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:20:39,513][MainThread:12300][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:20:40,876][MainThread:18488][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:20:49,025][MainThread:18488][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:20:50,357][MainThread:20496][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:20:55,717][MainThread:20496][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:20:57,011][MainThread:15820][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:21:09,961][MainThread:15820][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:21:11,503][MainThread:19124][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:21:15,683][MainThread:19124][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:21:17,028][MainThread:14144][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:22:36,476][MainThread:14144][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:22:37,762][MainThread:20772][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:23:16,331][MainThread:20772][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:23:18,309][MainThread:14480][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:23:22,394][MainThread:14480][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:23:23,682][MainThread:12420][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:23:42,470][MainThread:12420][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:23:43,979][MainThread:21296][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:23:58,150][MainThread:21296][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:23:59,453][MainThread:16288][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:24:06,784][MainThread:16288][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:24:08,248][MainThread:12192][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:29:32,415][MainThread:12192][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:29:33,774][MainThread:20188][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:31:19,304][MainThread:20188][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:31:20,646][MainThread:11588][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:32:44,088][MainThread:11588][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:32:45,825][MainThread:17900][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:32:54,199][MainThread:17900][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:32:55,513][MainThread:21056][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:37:43,029][MainThread:21056][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:37:44,389][MainThread:20320][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:53:46,263][MainThread:20320][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:53:48,223][MainThread:21156][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 11:56:26,595][MainThread:21156][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 11:56:27,993][MainThread:12088][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 12:17:04,628][MainThread:12088][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 12:17:06,778][MainThread:21272][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 12:59:15,933][MainThread:21272][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 12:59:17,880][MainThread:20024][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:05:54,554][MainThread:20024][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:05:56,236][MainThread:6960][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:06:10,655][MainThread:6960][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:06:11,987][MainThread:3144][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:06:17,300][MainThread:3144][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:06:19,012][MainThread:17824][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:06:26,471][MainThread:17824][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:06:27,934][MainThread:12788][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:06:33,338][MainThread:12788][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:06:34,639][MainThread:20648][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:06:43,883][MainThread:20648][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:06:45,341][MainThread:11712][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:07:18,694][MainThread:11712][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:07:20,046][MainThread:18272][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:07:26,355][MainThread:18272][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:07:28,091][MainThread:21296][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:08:36,446][MainThread:21296][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:08:38,490][MainThread:21440][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:08:49,752][MainThread:21440][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:08:51,204][MainThread:5088][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:09:03,610][MainThread:5088][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:09:04,948][MainThread:18672][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:10:32,481][MainThread:18672][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:10:33,833][MainThread:20784][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:13:12,977][MainThread:20784][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:13:14,786][MainThread:15648][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:15:30,909][MainThread:15648][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:15:32,716][MainThread:19476][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:15:57,240][MainThread:19476][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:15:58,519][MainThread:19260][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:16:27,335][MainThread:19260][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:16:28,629][MainThread:19628][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:18:03,350][MainThread:19628][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:18:04,655][MainThread:17880][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:18:12,570][MainThread:17880][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:18:14,165][MainThread:8616][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:18:29,869][MainThread:8616][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:18:31,168][MainThread:19904][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:18:42,025][MainThread:19904][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:18:43,517][MainThread:19588][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:18:59,129][MainThread:19588][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:19:00,431][MainThread:20360][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:19:56,798][MainThread:20360][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:19:58,423][MainThread:21352][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:20:14,671][MainThread:21352][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:20:15,994][MainThread:20292][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:21:21,089][MainThread:20292][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:21:22,405][MainThread:21088][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:21:31,883][MainThread:21088][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:21:33,531][MainThread:14564][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:21:41,314][MainThread:14564][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:21:42,755][MainThread:21052][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:22:21,137][MainThread:21052][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:22:22,464][MainThread:2968][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:22:37,422][MainThread:2968][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:22:39,229][MainThread:21220][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:22:46,503][MainThread:21220][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:22:47,892][MainThread:12420][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:24:46,030][MainThread:12420][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:24:47,383][MainThread:18484][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:27:13,561][MainThread:18484][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:27:15,512][MainThread:6664][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:29:21,615][MainThread:6664][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:29:22,931][MainThread:14092][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:30:03,916][MainThread:14092][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:30:05,222][MainThread:11684][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:30:22,020][MainThread:11684][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:30:23,348][MainThread:12996][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:30:40,916][MainThread:12996][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:30:43,058][MainThread:19672][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:30:58,007][MainThread:19672][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:30:59,583][MainThread:20624][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:32:10,722][MainThread:20624][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:32:12,992][MainThread:20672][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:33:26,009][MainThread:20672][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:33:27,326][MainThread:6424][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:33:36,852][MainThread:6424][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:33:38,994][MainThread:19484][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:33:44,623][Thread-1:19576][task_id:lts.views][views.py:9378][ERROR][查询产品出库失败]
+[2021-09-07 13:34:00,401][MainThread:19484][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:34:01,842][MainThread:12212][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:34:40,225][MainThread:12212][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:34:41,575][MainThread:15888][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:34:49,170][Thread-1:20292][task_id:lts.views][views.py:9378][ERROR][查询产品出库失败]
+[2021-09-07 13:36:24,914][MainThread:15888][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:36:26,996][MainThread:3076][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:36:49,295][Thread-1:21216][task_id:lts.views][views.py:9381][ERROR][查询产品出库失败]
+[2021-09-07 13:38:03,250][MainThread:3076][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:38:05,298][MainThread:20592][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:38:16,164][MainThread:20580][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:38:21,205][Thread-1:18532][task_id:lts.views][views.py:9381][ERROR][查询产品出库失败]
+[2021-09-07 13:40:56,749][MainThread:20580][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:40:58,194][MainThread:13548][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:41:10,374][Thread-1:20788][task_id:lts.views][views.py:9382][ERROR][查询产品出库失败]
+[2021-09-07 13:41:57,962][MainThread:13548][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:41:59,392][MainThread:19340][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:42:01,895][Thread-1:16932][task_id:lts.views][views.py:9383][ERROR][查询产品出库失败]
+[2021-09-07 13:42:14,085][MainThread:19340][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:42:15,529][MainThread:18696][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:42:17,765][Thread-1:12440][task_id:lts.views][views.py:9383][ERROR][查询产品出库失败]
+[2021-09-07 13:42:39,896][MainThread:18696][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:42:41,466][MainThread:19976][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:42:45,464][Thread-1:20488][task_id:lts.views][views.py:9383][ERROR][查询产品出库失败]
+[2021-09-07 13:44:10,864][MainThread:19976][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:44:12,287][MainThread:17668][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:44:14,973][Thread-1:9720][task_id:lts.views][views.py:9383][ERROR][查询产品出库失败]
+[2021-09-07 13:44:45,693][MainThread:17668][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:44:47,362][MainThread:14424][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:44:49,858][Thread-1:20416][task_id:lts.views][views.py:9384][ERROR][查询产品出库失败]
+[2021-09-07 13:45:23,165][MainThread:14424][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:45:24,572][MainThread:20360][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:45:26,109][Thread-1:20952][task_id:lts.views][views.py:9386][ERROR][查询产品出库失败]
+[2021-09-07 13:45:55,816][MainThread:20360][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:45:57,364][MainThread:20196][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:45:58,800][Thread-1:19696][task_id:lts.views][views.py:9386][ERROR][查询产品出库失败]
+[2021-09-07 13:48:14,075][MainThread:20196][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:48:15,668][MainThread:11120][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:48:17,275][Thread-1:21192][task_id:lts.views][views.py:9387][ERROR][查询产品出库失败]
+[2021-09-07 13:49:22,351][MainThread:11120][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 13:49:24,288][MainThread:16292][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 13:49:26,007][Thread-1:2588][task_id:lts.views][views.py:9387][ERROR][查询产品出库失败]
+[2021-09-07 14:00:30,328][MainThread:16292][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:00:31,801][MainThread:9148][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:01:05,372][MainThread:9148][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:01:06,690][MainThread:20232][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:02:20,445][MainThread:20232][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:02:21,900][MainThread:21328][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:03:02,215][MainThread:21328][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:03:03,568][MainThread:19040][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:03:15,298][MainThread:19040][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:03:16,858][MainThread:7452][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:03:53,693][MainThread:7452][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:03:55,929][MainThread:19932][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:04:29,611][MainThread:19932][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:04:30,996][MainThread:8616][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:04:57,378][MainThread:8616][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:04:58,718][MainThread:20012][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:05:46,291][MainThread:20012][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:05:48,434][MainThread:18716][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:05:58,114][MainThread:18716][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:06:00,035][MainThread:20612][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:18:19,243][Thread-1:8604][task_id:lts.views][views.py:2214][ERROR][查询生产计划表信息失败(1046, 'No database selected')]
+[2021-09-07 14:18:19,252][Thread-4:16688][task_id:lts.views][views.py:2214][ERROR][查询生产计划表信息失败(1046, 'No database selected')]
+[2021-09-07 14:18:19,590][Thread-5:20824][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3233, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3249, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:19,613][Thread-2:20176][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3270, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3289, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:19,637][Thread-3:15916][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticOperationSystem]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6495, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6537, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:19,662][Thread-6:20520][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticFinishedProductStorage]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5214, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 5292, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:22,552][Thread-8:6764][task_id:lts.views][views.py:2214][ERROR][查询生产计划表信息失败(1046, 'No database selected')]
+[2021-09-07 14:18:22,575][Thread-8:6764][task_id:lts.views][views.py:6360][ERROR][不分页的查询物料信息失败,(1046, 'No database selected')]
+[2021-09-07 14:18:22,625][Thread-9:16992][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticProductPlanCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3201, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3215, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:22,649][Thread-11:1448][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticMatterNameCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3986, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4001, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:22,674][Thread-7:20664][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3233, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3249, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:22,715][Thread-10:9032][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3233, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3249, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:22,723][Thread-12:900][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3270, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3289, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:51,038][Thread-14:19564][task_id:lts.views][views.py:2214][ERROR][查询生产计划表信息失败(1046, 'No database selected')]
+[2021-09-07 14:18:51,064][Thread-14:19564][task_id:lts.views][views.py:6360][ERROR][不分页的查询物料信息失败,(1046, 'No database selected')]
+[2021-09-07 14:18:51,123][Thread-16:18716][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3233, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3249, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:51,147][Thread-15:21172][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticProductPlanCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3201, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3215, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:51,171][Thread-18:3996][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3270, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3289, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:51,209][Thread-17:6528][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticMatterNameCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3986, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4001, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:18:51,218][Thread-13:20008][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3233, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3249, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:19:21,249][Thread-17:6528][task_id:lts.views][views.py:2214][ERROR][查询生产计划表信息失败(1046, 'No database selected')]
+[2021-09-07 14:19:21,274][Thread-17:6528][task_id:lts.views][views.py:6360][ERROR][不分页的查询物料信息失败,(1046, 'No database selected')]
+[2021-09-07 14:19:21,323][Thread-18:3996][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticProductPlanCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3201, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3215, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:19:21,354][Thread-15:21172][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3233, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3249, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:19:21,383][Thread-16:18716][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticMatterNameCode]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3986, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4001, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:19:21,432][Thread-13:20008][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPersonCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3233, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3249, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:19:21,434][Thread-14:19564][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticWorkCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3270, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3289, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 14:19:30,236][Thread-19:16340][task_id:lts.views][views.py:4224][INFO][返回产品的编号和名称成功%s]
+[2021-09-07 14:19:31,955][Thread-19:16340][task_id:lts.views][views.py:4189][INFO][返回工站的编码和工站的名称成功%s]
+[2021-09-07 14:19:40,995][Thread-19:16340][task_id:lts.views][views.py:164][INFO][登录成功]
+[2021-09-07 14:19:41,067][Thread-19:16340][task_id:lts.views][views.py:4092][INFO][当前登录人的信息返回成功%s]
+[2021-09-07 14:19:41,096][Thread-20:16768][task_id:lts.views][views.py:4092][INFO][当前登录人的信息返回成功%s]
+[2021-09-07 14:19:41,276][Thread-19:16340][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:19:41,290][Thread-22:2656][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:19:41,294][Thread-21:1500][task_id:lts.views][views.py:6530][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-07 14:19:41,295][Thread-24:5096][task_id:lts.views][views.py:4567][INFO][返回物料的内码 名称 规格 长度成功%s]
+[2021-09-07 14:19:41,309][Thread-23:15524][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:19:41,325][Thread-20:16768][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:19:44,849][Thread-24:5096][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:19:44,861][Thread-19:16340][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:19:44,861][Thread-22:2656][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:19:44,862][Thread-21:1500][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 14:19:44,862][Thread-20:16768][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:19:48,912][Thread-23:15524][task_id:lts.views][views.py:6353][INFO][不分页的物料查询成功]
+[2021-09-07 14:19:52,038][Thread-23:15524][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:20:00,536][Thread-23:15524][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:20:02,983][Thread-23:15524][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:20:02,986][Thread-19:16340][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 14:20:02,986][Thread-24:5096][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:20:02,997][Thread-20:16768][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:20:03,009][Thread-21:1500][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:20:06,446][Thread-23:15524][task_id:lts.views][views.py:6353][INFO][不分页的物料查询成功]
+[2021-09-07 14:20:06,628][Thread-24:5096][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:20:19,710][Thread-24:5096][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:22:30,004][Thread-25:872][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:22:57,820][Thread-25:872][task_id:lts.views][views.py:8726][INFO][查询看板成功%s]
+[2021-09-07 14:23:05,534][Thread-29:7792][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:23:05,537][Thread-31:19404][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:23:05,545][Thread-28:6444][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:23:05,546][Thread-26:19904][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:23:05,560][Thread-30:15824][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 14:23:06,630][Thread-25:872][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:23:06,643][Thread-33:900][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:23:06,643][Thread-34:20664][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:23:06,654][Thread-36:1448][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:23:06,673][Thread-35:9032][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 14:23:11,108][Thread-25:872][task_id:lts.views][views.py:6353][INFO][不分页的物料查询成功]
+[2021-09-07 14:23:12,885][Thread-29:7792][task_id:lts.views][views.py:6353][INFO][不分页的物料查询成功]
+[2021-09-07 14:27:01,817][Thread-37:20700][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:27:01,823][Thread-39:20340][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:27:01,823][Thread-40:11940][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:27:01,824][Thread-41:6716][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 14:27:01,824][Thread-42:19744][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:27:02,829][Thread-43:1456][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:27:02,842][Thread-46:5064][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:27:02,849][Thread-48:13388][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:27:02,856][Thread-47:18608][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 14:27:02,860][Thread-50:16984][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:27:02,866][Thread-45:2164][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:27:02,868][Thread-51:1496][task_id:lts.views][views.py:6530][INFO][OperationSystem>>>>操作成功%s]
+[2021-09-07 14:27:02,869][Thread-53:15964][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:27:04,000][Thread-54:15384][task_id:lts.views][views.py:5276][INFO][查询包装箱里面有哪些产品成功%s]
+[2021-09-07 14:27:09,533][Thread-37:20700][task_id:lts.views][views.py:6353][INFO][不分页的物料查询成功]
+[2021-09-07 14:27:11,484][Thread-43:1456][task_id:lts.views][views.py:6353][INFO][不分页的物料查询成功]
+[2021-09-07 14:27:38,147][Thread-43:1456][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:29:49,075][MainThread:20612][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:29:51,025][MainThread:17404][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:30:28,866][MainThread:17404][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:30:30,280][MainThread:15944][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:31:08,480][Thread-3:18464][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:31:08,481][Thread-4:12568][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:31:08,481][Thread-6:5148][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:31:08,481][Thread-1:5560][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:31:08,490][Thread-5:2896][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 14:31:12,694][Thread-3:18464][task_id:lts.views][views.py:6353][INFO][不分页的物料查询成功]
+[2021-09-07 14:31:12,866][Thread-2:21212][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:31:19,974][Thread-2:21212][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:31:47,777][Thread-2:21212][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:32:32,153][Thread-2:21212][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:32:34,803][Thread-2:21212][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:32:45,720][Thread-2:21212][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:33:27,222][MainThread:15944][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:33:28,607][MainThread:20080][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:33:32,302][Thread-1:15252][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:33:32,303][Thread-4:20604][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:33:32,304][Thread-3:20528][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:33:32,305][Thread-6:13032][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:33:32,329][Thread-5:19256][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 14:33:36,428][Thread-1:15252][task_id:lts.views][views.py:6353][INFO][不分页的物料查询成功]
+[2021-09-07 14:33:36,474][Thread-6:13032][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:33:36,477][Thread-7:12232][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:33:36,477][Thread-4:20604][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:33:36,486][Thread-3:20528][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 14:33:36,489][Thread-5:19256][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:33:40,529][Thread-6:13032][task_id:lts.views][views.py:6353][INFO][不分页的物料查询成功]
+[2021-09-07 14:33:45,594][Thread-7:12232][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 14:33:45,596][Thread-4:20604][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 14:33:45,597][Thread-6:13032][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:33:45,603][Thread-5:19256][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 14:33:45,605][Thread-3:20528][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 14:33:48,137][Thread-2:15484][task_id:lts.views][views.py:7971][INFO][生命周期成功:]
+[2021-09-07 14:33:49,636][Thread-6:13032][task_id:lts.views][views.py:6353][INFO][不分页的物料查询成功]
+[2021-09-07 14:49:39,437][MainThread:20080][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\product_live.py changed, reloading.]
+[2021-09-07 14:49:40,792][MainThread:15944][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:55:41,323][MainThread:15944][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:55:42,665][MainThread:7344][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 14:56:31,035][MainThread:7344][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 14:56:32,396][MainThread:12212][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 15:08:53,666][MainThread:12212][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 15:08:55,919][MainThread:3672][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 15:09:39,232][MainThread:3672][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 15:09:40,539][MainThread:5376][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 15:10:25,540][MainThread:5376][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-09-07 15:10:26,876][MainThread:20016][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 15:24:14,562][Thread-1:1556][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticOperationSystem]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6493, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 6535, in get
+    result = json.dumps(result)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'OperationalError' is not JSON serializable
+[2021-09-07 16:12:23,129][MainThread:4496][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-09-07 16:12:27,869][Thread-1:14412][task_id:lts.views][views.py:4224][INFO][返回产品的编号和名称成功%s]
+[2021-09-07 16:12:30,386][Thread-3:1360][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:12:30,388][Thread-6:15696][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:12:30,397][Thread-7:5356][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:12:30,401][Thread-5:14436][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:12:30,405][Thread-8:10956][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:12:33,105][Thread-2:12500][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:12:33,391][Thread-8:10956][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:12:36,841][Thread-4:10840][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:15:41,801][Thread-11:21640][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:15:41,802][Thread-14:21692][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:15:41,811][Thread-12:21828][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:15:41,813][Thread-13:21792][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:15:41,814][Thread-10:21736][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:15:45,833][Thread-9:22040][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:15:46,145][Thread-13:21792][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:17:05,881][Thread-18:15248][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:17:05,882][Thread-20:21864][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:17:05,896][Thread-15:18012][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:17:05,896][Thread-17:21996][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:17:05,926][Thread-19:21556][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:17:09,894][Thread-16:10916][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:17:10,254][Thread-19:21556][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:18:01,237][Thread-17:21996][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:18:01,240][Thread-18:15248][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:18:01,253][Thread-15:18012][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:18:01,257][Thread-20:21864][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:18:01,267][Thread-19:21556][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:18:03,640][Thread-19:21556][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:18:05,212][Thread-16:10916][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:18:25,991][Thread-15:18012][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:18:25,994][Thread-20:21864][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:18:26,007][Thread-16:10916][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:18:26,007][Thread-18:15248][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:18:26,037][Thread-17:21996][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:18:28,127][Thread-17:21996][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:18:30,070][Thread-15:18012][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:19:52,959][Thread-22:20560][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:19:52,962][Thread-24:22140][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:19:52,963][Thread-26:12416][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:19:52,974][Thread-25:5576][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:19:52,977][Thread-23:21564][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:19:57,112][Thread-22:20560][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:19:57,438][Thread-23:21564][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:20:23,436][Thread-23:21564][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:20:23,438][Thread-21:22264][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:20:23,438][Thread-25:5576][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:20:23,439][Thread-26:12416][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:20:23,445][Thread-24:22140][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:20:26,430][Thread-24:22140][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:20:29,309][Thread-22:20560][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:20:53,591][Thread-22:20560][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:20:53,591][Thread-26:12416][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:20:53,604][Thread-21:22264][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:20:53,607][Thread-25:5576][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:20:53,634][Thread-23:21564][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:20:55,824][Thread-23:21564][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:20:57,577][Thread-22:20560][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:21:38,748][Thread-26:12416][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:21:38,760][Thread-21:22264][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:21:38,764][Thread-25:5576][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:21:38,776][Thread-22:20560][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:21:38,776][Thread-24:22140][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:21:42,733][Thread-23:21564][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:21:43,045][Thread-24:22140][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:23:05,308][Thread-27:13572][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:23:05,314][Thread-30:21660][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:23:05,316][Thread-31:6652][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:23:05,319][Thread-29:22408][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:23:05,343][Thread-32:21736][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:23:07,604][Thread-32:21736][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:23:09,372][Thread-27:13572][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:24:16,044][Thread-33:21836][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:24:16,045][Thread-36:21540][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:24:16,047][Thread-38:9944][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:24:16,053][Thread-35:9984][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:24:16,068][Thread-37:17468][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:24:20,071][Thread-36:21540][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:24:20,252][Thread-38:9944][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:28:34,922][Thread-39:21556][task_id:lts.views][views.py:4224][INFO][返回产品的编号和名称成功%s]
+[2021-09-07 16:28:40,841][Thread-40:19292][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:28:40,850][Thread-43:10276][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:28:40,850][Thread-42:20896][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:28:40,853][Thread-44:18104][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:28:40,865][Thread-45:2000][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:28:44,871][Thread-41:7712][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:28:45,190][Thread-44:18104][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:32:53,164][Thread-48:13044][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:32:53,164][Thread-50:3444][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:32:53,177][Thread-51:10900][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:32:53,183][Thread-49:22032][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:32:53,207][Thread-47:13572][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:32:57,220][Thread-50:3444][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:32:57,397][Thread-47:13572][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:33:50,027][Thread-51:10900][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:33:50,029][Thread-46:9364][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:33:50,040][Thread-47:13572][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:33:50,049][Thread-48:13044][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:33:50,049][Thread-49:22032][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:33:54,001][Thread-51:10900][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:33:54,317][Thread-48:13044][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:35:50,952][Thread-52:19220][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:35:50,957][Thread-54:1712][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:35:50,968][Thread-55:9996][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:35:50,970][Thread-56:9524][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:35:50,974][Thread-57:18528][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:35:53,465][Thread-57:18528][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:35:54,973][Thread-52:19220][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:36:25,918][Thread-57:18528][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:36:25,923][Thread-53:5920][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:36:25,937][Thread-54:1712][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:36:25,939][Thread-56:9524][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:36:25,954][Thread-55:9996][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:36:29,887][Thread-57:18528][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:36:30,219][Thread-55:9996][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:36:56,900][Thread-55:9996][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:36:56,913][Thread-53:5920][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:36:56,929][Thread-56:9524][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:36:56,942][Thread-54:1712][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:36:56,942][Thread-52:19220][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:36:59,224][Thread-52:19220][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:37:00,990][Thread-55:9996][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:37:25,064][Thread-54:1712][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:37:25,080][Thread-52:19220][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:37:25,080][Thread-56:9524][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:37:25,085][Thread-53:5920][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:37:25,110][Thread-57:18528][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:37:27,293][Thread-57:18528][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:37:29,078][Thread-54:1712][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:38:34,466][Thread-58:9916][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:38:34,468][Thread-62:12568][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:38:34,469][Thread-61:4004][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:38:34,491][Thread-60:9580][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:38:34,492][Thread-63:21220][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:38:38,494][Thread-58:9916][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:38:39,343][Thread-58:9916][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:39:09,632][Thread-58:9916][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:39:09,633][Thread-59:11140][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:39:09,633][Thread-60:9580][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:39:09,634][Thread-61:4004][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:39:09,651][Thread-62:12568][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:39:12,212][Thread-62:12568][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:39:13,696][Thread-61:4004][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:39:35,164][Thread-62:12568][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:39:35,172][Thread-58:9916][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:39:35,184][Thread-59:11140][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:39:35,184][Thread-60:9580][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:39:35,184][Thread-63:21220][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:39:37,392][Thread-59:11140][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:39:39,187][Thread-62:12568][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:39:56,582][Thread-59:11140][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:39:56,583][Thread-58:9916][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:39:56,589][Thread-63:21220][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:39:56,589][Thread-61:4004][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:39:56,589][Thread-60:9580][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:39:59,961][Thread-60:9580][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:40:00,555][Thread-58:9916][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:40:25,614][Thread-61:4004][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:40:25,625][Thread-58:9916][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:40:25,627][Thread-62:12568][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:40:25,627][Thread-63:21220][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:40:25,651][Thread-59:11140][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:40:29,715][Thread-61:4004][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:40:30,609][Thread-61:4004][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:40:54,952][Thread-62:12568][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:40:54,954][Thread-58:9916][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:40:54,958][Thread-60:9580][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:40:54,959][Thread-63:21220][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:40:54,959][Thread-61:4004][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:40:57,589][Thread-60:9580][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:40:58,986][Thread-62:12568][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:41:19,009][Thread-61:4004][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:41:19,038][Thread-60:9580][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:41:19,038][Thread-59:11140][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:41:19,043][Thread-63:21220][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:41:19,050][Thread-58:9916][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:41:21,307][Thread-58:9916][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:41:23,043][Thread-61:4004][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:52:47,390][Thread-66:8756][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:52:47,390][Thread-68:22356][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:52:47,391][Thread-71:21528][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:52:47,391][Thread-69:15764][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:52:47,416][Thread-70:16856][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:52:49,946][Thread-70:16856][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:52:51,452][Thread-68:22356][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]
+[2021-09-07 16:53:04,233][Thread-67:11540][task_id:lts.views][views.py:3209][INFO][返回生产计划内码和生产名称成功%s]
+[2021-09-07 16:53:04,234][Thread-69:15764][task_id:lts.views][views.py:3995][INFO][返回物料的名称和物料的内码成功%s]
+[2021-09-07 16:53:04,253][Thread-71:21528][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:53:04,254][Thread-68:22356][task_id:lts.views][views.py:3241][INFO][返回人员的内码和名字成功%s]
+[2021-09-07 16:53:04,284][Thread-66:8756][task_id:lts.views][views.py:3282][INFO][返回工站的内码和名称成功%s]
+[2021-09-07 16:53:06,635][Thread-66:8756][task_id:lts.views][views.py:7969][INFO][生命周期成功:]
+[2021-09-07 16:53:08,380][Thread-67:11540][task_id:lts.views][views.py:6351][INFO][不分页的物料查询成功]

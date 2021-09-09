@@ -1,0 +1,4 @@
+[2021-08-25 16:49:38,964][Thread-2:15092][task_id:lts.views][views.py:409][ERROR][调取person数据库有错误name 'product_id' is not defined]
+[2021-08-25 16:53:32,607][Thread-2:2360][task_id:lts.views][views.py:187][ERROR][用户名或者密码不正确或者没有管理员的权限]
+[2021-08-25 16:54:01,728][Thread-1:6768][task_id:lts.views][views.py:188][ERROR][用户名或者密码不正确或者没有管理员的权限]
+[2021-08-25 17:03:46,259][Thread-1:20892][task_id:lts.views][views.py:480][ERROR][创建人员失败name 'product_id' is not defined]

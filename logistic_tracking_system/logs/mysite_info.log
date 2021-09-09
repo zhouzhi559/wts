@@ -1,0 +1,3 @@
+[2021-07-01 15:41:46,206][MainThread:20884][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-07-01 15:41:48,502][Thread-1:38852][task_id:lts.views][views.py:40][INFO][登录成功]
+[2021-07-01 15:42:13,624][MainThread:20884][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\LogisticsTrackingSystem\logistic_tracking_system\logistic_tracking_system\settings.py changed, reloading.]

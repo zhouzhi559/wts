@@ -1,0 +1,19 @@
+[2021-07-06 11:08:21,586][Thread-1:20424][task_id:lts.views][views.py:494][ERROR][创建物料详情表失败]
+[2021-07-06 14:11:23,003][Thread-1:3624][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticDeletePersonMatter]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.DeletePersonMatter didn't return an HttpResponse object. It returned None instead.
+[2021-07-06 14:14:42,579][Thread-1:23820][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticDeletePersonMatter]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.DeletePersonMatter didn't return an HttpResponse object. It returned None instead.

@@ -1,0 +1,551 @@
+[2021-08-31 08:58:18,757][MainThread:3784][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:00:27,990][MainThread:3784][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 09:00:29,733][MainThread:6972][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:01:25,656][Thread-1:14108][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "kvbten", "product_name": "kvbten1"}, {"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:01:27,171][Thread-1:14108][task_id:lts.views][views.py:4037][INFO][返回工站的编码和工站的名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:01:31,638][Thread-1:14108][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "kvbten", "product_name": "kvbten1"}, {"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:01:40,990][Thread-1:14108][task_id:lts.views][views.py:210][INFO][登录成功]
+[2021-08-31 09:01:41,109][Thread-1:14108][task_id:lts.views][views.py:3966][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_User_2", "user_id": "2021", "user_name": "test", "user_password": "123", "user_authority": "", "status": "\u542f\u7528", "user_product_id": "", "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "co2", "work_type": "", "pick_number": 0, "work_id": ""}}]
+[2021-08-31 09:01:41,109][Thread-2:6784][task_id:lts.views][views.py:3966][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_User_2", "user_id": "2021", "user_name": "test", "user_password": "123", "user_authority": "", "status": "\u542f\u7528", "user_product_id": "", "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "co2", "work_type": "", "pick_number": 0, "work_id": ""}}]
+[2021-08-31 09:01:47,509][Thread-1:14108][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "kvbten", "product_name": "kvbten1"}, {"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:01:52,288][Thread-1:14108][task_id:lts.views][views.py:236][INFO][登录成功]
+[2021-08-31 09:01:52,334][Thread-1:14108][task_id:lts.views][views.py:3941][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_user_1", "user_id": "0001", "user_name": "admin", "user_password": "admin123", "user_authority": "001,002", "status": "\u5728\u804c", "user_product_id": null, "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "db_common", "work_type": null, "pick_number": 0, "work_id": null}}]
+[2021-08-31 09:01:52,349][Thread-2:6784][task_id:lts.views][views.py:3941][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_user_1", "user_id": "0001", "user_name": "admin", "user_password": "admin123", "user_authority": "001,002", "status": "\u5728\u804c", "user_product_id": null, "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "db_common", "work_type": null, "pick_number": 0, "work_id": null}}]
+[2021-08-31 09:02:17,772][Thread-2:6784][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPutBOMProductList]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.PutBOMProductList didn't return an HttpResponse object. It returned None instead.
+[2021-08-31 09:02:40,140][MainThread:6972][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py changed, reloading.]
+[2021-08-31 09:02:41,441][MainThread:16288][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:03:02,258][MainThread:16288][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py changed, reloading.]
+[2021-08-31 09:03:03,591][MainThread:14704][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:03:08,039][MainThread:14704][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py changed, reloading.]
+[2021-08-31 09:03:09,318][MainThread:16076][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:03:16,089][MainThread:16076][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py changed, reloading.]
+[2021-08-31 09:03:17,403][MainThread:15528][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:03:43,516][Thread-1:18280][task_id:lts.views][views.py:1116][ERROR][查询产品列表失败(1049, "Unknown database 'db_common'")]
+[2021-08-31 09:03:46,915][Thread-1:18280][task_id:lts.views][views.py:1116][ERROR][查询产品列表失败(1049, "Unknown database 'db_common'")]
+[2021-08-31 09:03:57,557][Thread-1:18280][task_id:lts.views][views.py:1116][ERROR][查询产品列表失败(1049, "Unknown database 'db_common'")]
+[2021-08-31 09:04:24,596][MainThread:15528][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\logistic_tracking_system\settings.py changed, reloading.]
+[2021-08-31 09:04:25,904][MainThread:11552][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:05:18,451][MainThread:11552][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\logistic_tracking_system\settings.py changed, reloading.]
+[2021-08-31 09:05:19,730][MainThread:16848][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:05:52,286][MainThread:16848][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py changed, reloading.]
+[2021-08-31 09:05:53,564][MainThread:6464][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:06:22,156][Thread-1:12676][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "kvbten", "product_name": "kvbten1"}, {"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:07:47,980][Thread-2:2004][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "kvbten", "product_name": "kvbten1"}, {"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:18:35,132][MainThread:11380][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:21:14,312][MainThread:6528][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:21:33,245][Thread-1:7404][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticGetProductId]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4062, in get
+    dfs = db.execute_sql(conn, sql_product)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_common.productlist' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4077, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-08-31 09:21:37,080][Thread-1:7404][task_id:lts.views][views.py:252][ERROR][登录时候用户名操作失败(1049, "Unknown database 'co2'")]
+[2021-08-31 09:21:40,799][Thread-1:7404][task_id:lts.views][views.py:252][ERROR][登录时候用户名操作失败(1049, "Unknown database 'co2'")]
+[2021-08-31 09:21:45,637][Thread-1:7404][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticGetProductId]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4062, in get
+    dfs = db.execute_sql(conn, sql_product)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_common.productlist' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4077, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-08-31 09:24:05,303][Thread-2:16228][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticGetProductId]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4062, in get
+    dfs = db.execute_sql(conn, sql_product)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_common.productlist' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 4077, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-08-31 09:28:21,359][Thread-3:3636][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": []}]
+[2021-08-31 09:30:40,464][Thread-4:17172][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": []}]
+[2021-08-31 09:30:51,983][Thread-4:17172][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": []}]
+[2021-08-31 09:31:01,659][Thread-4:17172][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": []}]
+[2021-08-31 09:31:09,246][Thread-4:17172][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": []}]
+[2021-08-31 09:31:12,336][Thread-4:17172][task_id:lts.views][views.py:245][ERROR][该用户不是超级管理员]
+[2021-08-31 09:31:16,167][Thread-4:17172][task_id:lts.views][views.py:245][ERROR][该用户不是超级管理员]
+[2021-08-31 09:31:53,969][Thread-4:17172][task_id:lts.views][views.py:245][ERROR][该用户不是超级管理员]
+[2021-08-31 09:31:56,144][Thread-4:17172][task_id:lts.views][views.py:236][INFO][登录成功]
+[2021-08-31 09:31:56,209][Thread-4:17172][task_id:lts.views][views.py:3941][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_user_1", "user_id": "0001", "user_name": "admin", "user_password": "admin123", "user_authority": "001,002", "status": "\u5728\u804c", "user_product_id": null, "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "db_common", "work_type": null, "pick_number": 0, "work_id": null}}]
+[2021-08-31 09:31:56,225][Thread-5:2900][task_id:lts.views][views.py:3941][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_user_1", "user_id": "0001", "user_name": "admin", "user_password": "admin123", "user_authority": "001,002", "status": "\u5728\u804c", "user_product_id": null, "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "db_common", "work_type": null, "pick_number": 0, "work_id": null}}]
+[2021-08-31 09:32:14,424][Thread-5:2900][task_id:lts.views][views.py:1392][INFO][创建产品详情表成功]
+[2021-08-31 09:32:16,040][Thread-5:2900][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:32:16,040][Thread-4:17172][task_id:lts.views][views.py:3139][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": []}]
+[2021-08-31 09:32:16,088][Thread-5:2900][task_id:lts.views][views.py:433][INFO][调取人员详情成功但是没有数据:]
+[2021-08-31 09:32:24,089][Thread-5:2900][task_id:lts.views][views.py:511][INFO][创建人员成功]
+[2021-08-31 09:32:24,151][Thread-5:2900][task_id:lts.views][views.py:3139][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": []}]
+[2021-08-31 09:32:24,198][Thread-5:2900][task_id:lts.views][views.py:426][INFO][调取人员详情成功:]
+[2021-08-31 09:32:25,719][Thread-5:2900][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:32:29,877][Thread-5:2900][task_id:lts.views][views.py:210][INFO][登录成功]
+[2021-08-31 09:32:29,947][Thread-4:17172][task_id:lts.views][views.py:3966][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_User_2", "user_id": "0001", "user_name": "test", "user_password": "123", "user_authority": "", "status": "\u542f\u7528", "user_product_id": "", "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "co2", "work_type": "", "pick_number": 0, "work_id": ""}}]
+[2021-08-31 09:32:29,998][Thread-5:2900][task_id:lts.views][views.py:3966][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_User_2", "user_id": "0001", "user_name": "test", "user_password": "123", "user_authority": "", "status": "\u542f\u7528", "user_product_id": "", "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "co2", "work_type": "", "pick_number": 0, "work_id": ""}}]
+[2021-08-31 09:32:35,076][Thread-4:17172][task_id:lts.views][views.py:4071][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:32:39,693][Thread-4:17172][task_id:lts.views][views.py:236][INFO][登录成功]
+[2021-08-31 09:32:39,801][Thread-4:17172][task_id:lts.views][views.py:3941][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_User_2", "user_id": "0001", "user_name": "test", "user_password": "123", "user_authority": "", "status": "\u542f\u7528", "user_product_id": "", "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "db_common", "work_type": null, "pick_number": 0, "work_id": null}}]
+[2021-08-31 09:32:39,809][Thread-5:2900][task_id:lts.views][views.py:3941][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_User_2", "user_id": "0001", "user_name": "test", "user_password": "123", "user_authority": "", "status": "\u542f\u7528", "user_product_id": "", "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "db_common", "work_type": null, "pick_number": 0, "work_id": null}}]
+[2021-08-31 09:32:49,224][Thread-5:2900][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticPutBOMProductList]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view lts.views.PutBOMProductList didn't return an HttpResponse object. It returned None instead.
+[2021-08-31 09:33:55,230][MainThread:6528][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 09:33:57,170][MainThread:4464][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:34:18,203][Thread-2:2156][task_id:lts.views][views.py:3108][INFO][返回人员的内码和名字成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"user_code": "Im_user_1", "user_name": "admin"}, {"user_code": "Im_User_2", "user_name": "test"}]}]
+[2021-08-31 09:34:18,203][Thread-1:1028][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": []}]
+[2021-08-31 09:34:18,236][Thread-3:4972][task_id:lts.views][views.py:6347][ERROR][查询物产品信息失败,tuple index out of range]
+[2021-08-31 09:34:18,266][Thread-1:1028][task_id:lts.views][views.py:6030][INFO][物料查询成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {}}]
+[2021-08-31 09:34:19,673][Thread-1:1028][task_id:lts.views][views.py:3108][INFO][返回人员的内码和名字成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"user_code": "Im_user_1", "user_name": "admin"}, {"user_code": "Im_User_2", "user_name": "test"}]}]
+[2021-08-31 09:34:19,678][Thread-3:4972][task_id:lts.views][views.py:2097][ERROR][查询生产计划表信息失败(1146, "Table 'db_common.product_plandeal' doesn't exist")]
+[2021-08-31 09:34:19,678][Thread-6:17196][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": []}]
+[2021-08-31 09:34:19,691][Thread-5:13748][task_id:lts.views][views.py:3854][INFO][返回物料的名称和物料的内码成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": []}]
+[2021-08-31 09:34:19,707][Thread-1:1028][task_id:lts.views][views.py:6229][INFO][不分页的物料查询成功]
+[2021-08-31 09:34:19,721][Thread-4:5572][task_id:lts.views][views.py:3108][INFO][返回人员的内码和名字成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"user_code": "Im_user_1", "user_name": "admin"}, {"user_code": "Im_User_2", "user_name": "test"}]}]
+[2021-08-31 09:34:19,959][Thread-2:2156][task_id:django.request][log.py:230][ERROR][Internal Server Error: /logistic/LogisticProductPlanCodeName]
+Traceback (most recent call last):
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3069, in get
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py", line 50, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_common.product_plandeal' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py", line 3082, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\lts\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ProgrammingError' is not JSON serializable
+[2021-08-31 09:34:22,244][Thread-2:2156][task_id:lts.views][views.py:4080][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:34:29,756][Thread-2:2156][task_id:lts.views][views.py:210][INFO][登录成功]
+[2021-08-31 09:34:29,807][Thread-2:2156][task_id:lts.views][views.py:3975][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_user_1", "user_id": "0001", "user_name": "admin", "user_password": "admin123", "user_authority": "001,002", "status": "\u5728\u804c", "user_product_id": null, "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "co2", "work_type": "", "pick_number": 0, "work_id": ""}}]
+[2021-08-31 09:34:29,848][Thread-4:5572][task_id:lts.views][views.py:3975][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_user_1", "user_id": "0001", "user_name": "admin", "user_password": "admin123", "user_authority": "001,002", "status": "\u5728\u804c", "user_product_id": null, "user_role": "\u8d85\u7ea7\u7ba1\u7406\u5458", "product_id": "co2", "work_type": "", "pick_number": 0, "work_id": ""}}]
+[2021-08-31 09:34:35,852][Thread-4:5572][task_id:lts.views][views.py:6405][INFO][OperationSystem>>>>操作成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"data": [], "total": 0}}]
+[2021-08-31 09:35:44,341][MainThread:5488][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 09:35:47,623][Thread-1:10544][task_id:lts.views][views.py:4080][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "kvbten", "product_name": "kvbten1"}, {"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:35:49,005][Thread-1:10544][task_id:lts.views][views.py:4046][INFO][返回工站的编码和工站的名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:36:02,885][Thread-1:10544][task_id:lts.views][views.py:144][INFO][登录成功]
+[2021-08-31 09:36:02,942][Thread-1:10544][task_id:lts.views][views.py:3950][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_User_1", "user_id": "0201", "user_name": "sunny", "user_password": "123", "user_authority": "Station_05,Station_06,Station_08,Station_09,Station_10,Station_11,Station_051", "status": "\u542f\u7528", "user_product_id": "co2", "user_role": "", "product_id": "co2", "work_type": "\u7ef4\u4fee", "pick_number": 0, "work_id": "Station_11"}}]
+[2021-08-31 09:36:02,957][Thread-2:1140][task_id:lts.views][views.py:3950][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_User_1", "user_id": "0201", "user_name": "sunny", "user_password": "123", "user_authority": "Station_05,Station_06,Station_08,Station_09,Station_10,Station_11,Station_051", "status": "\u542f\u7528", "user_product_id": "co2", "user_role": "", "product_id": "co2", "work_type": "\u7ef4\u4fee", "pick_number": 0, "work_id": "Station_11"}}]
+[2021-08-31 09:36:03,231][Thread-4:16472][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_code": "Im_WorkStation_3", "work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_4", "work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_5", "work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_code": "Im_WorkStation_6", "work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_code": "Im_WorkStation_7", "work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:36:03,232][Thread-3:15736][task_id:lts.views][views.py:6405][INFO][OperationSystem>>>>操作成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"data": [{"ID": 1, "Package_Qty": 20, "Rv": "00A01", "Itemcode_C_Shipping": "SUB-ASSHEUH-2A001364-100", "Supplier": "SPR001300", "No_Ship": 20, "CS_type": "SPR001300-2A001364-CMSS-A01-081021-0001", "Shipping_SN_length": 12, "Product_length": 10}], "total": 1}}]
+[2021-08-31 09:36:03,261][Thread-1:10544][task_id:lts.views][views.py:3077][INFO][返回生产计划内码和生产名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_plan_code": "Im_ProductPlan_1", "product_plan_name": "OW202108310001"}]}]
+[2021-08-31 09:36:03,261][Thread-2:1140][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_code": "Im_WorkStation_3", "work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_4", "work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_5", "work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_code": "Im_WorkStation_6", "work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_code": "Im_WorkStation_7", "work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:36:03,261][Thread-6:14512][task_id:lts.views][views.py:4545][INFO][返回物料的内码 名称 规格 长度成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"matter_code": "Im_BOM_Matter_1", "matter_name": "receive_housing", "rule": "SPR001300-2A001364-CMSS-A01", "code_length": 27}]}]
+[2021-08-31 09:36:03,290][Thread-3:15736][task_id:lts.views][views.py:3108][INFO][返回人员的内码和名字成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"user_code": "Im_User_1", "user_name": "sunny"}]}]
+[2021-08-31 09:36:37,026][Thread-2:1140][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_code": "Im_WorkStation_3", "work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_4", "work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_5", "work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_code": "Im_WorkStation_6", "work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_code": "Im_WorkStation_7", "work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:36:37,027][Thread-3:15736][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_code": "Im_WorkStation_3", "work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_4", "work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_5", "work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_code": "Im_WorkStation_6", "work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_code": "Im_WorkStation_7", "work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:36:37,029][Thread-1:10544][task_id:lts.views][views.py:6405][INFO][OperationSystem>>>>操作成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"data": [{"ID": 1, "Package_Qty": 20, "Rv": "00A01", "Itemcode_C_Shipping": "SUB-ASSHEUH-2A001364-100", "Supplier": "SPR001300", "No_Ship": 20, "CS_type": "SPR001300-2A001364-CMSS-A01-081021-0001", "Shipping_SN_length": 12, "Product_length": 10}], "total": 1}}]
+[2021-08-31 09:36:37,038][Thread-3:15736][task_id:lts.views][views.py:3077][INFO][返回生产计划内码和生产名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_plan_code": "Im_ProductPlan_1", "product_plan_name": "OW202108310001"}]}]
+[2021-08-31 09:36:37,042][Thread-5:13800][task_id:lts.views][views.py:4545][INFO][返回物料的内码 名称 规格 长度成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"matter_code": "Im_BOM_Matter_1", "matter_name": "receive_housing", "rule": "SPR001300-2A001364-CMSS-A01", "code_length": 27}]}]
+[2021-08-31 09:36:37,087][Thread-1:10544][task_id:lts.views][views.py:3108][INFO][返回人员的内码和名字成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"user_code": "Im_User_1", "user_name": "sunny"}]}]
+[2021-08-31 09:36:48,923][Thread-1:10544][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_code": "Im_WorkStation_3", "work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_4", "work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_5", "work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_code": "Im_WorkStation_6", "work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_code": "Im_WorkStation_7", "work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:36:48,935][Thread-3:15736][task_id:lts.views][views.py:3108][INFO][返回人员的内码和名字成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"user_code": "Im_User_1", "user_name": "sunny"}]}]
+[2021-08-31 09:36:48,967][Thread-6:14512][task_id:lts.views][views.py:6341][INFO][不分页的产品查询成功]
+[2021-08-31 09:36:49,000][Thread-3:15736][task_id:lts.views][views.py:6030][INFO][物料查询成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"data": [], "total": 0}}]
+[2021-08-31 09:36:49,811][Thread-1:10544][task_id:lts.views][views.py:3077][INFO][返回生产计划内码和生产名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_plan_code": "Im_ProductPlan_1", "product_plan_name": "OW202108310001"}]}]
+[2021-08-31 09:36:49,812][Thread-4:16472][task_id:lts.views][views.py:3108][INFO][返回人员的内码和名字成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"user_code": "Im_User_1", "user_name": "sunny"}]}]
+[2021-08-31 09:36:49,812][Thread-2:1140][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_code": "Im_WorkStation_3", "work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_4", "work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_5", "work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_code": "Im_WorkStation_6", "work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_code": "Im_WorkStation_7", "work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:36:49,817][Thread-3:15736][task_id:lts.views][views.py:3108][INFO][返回人员的内码和名字成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"user_code": "Im_User_1", "user_name": "sunny"}]}]
+[2021-08-31 09:36:49,828][Thread-5:13800][task_id:lts.views][views.py:3854][INFO][返回物料的名称和物料的内码成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"matter_code": "Im_BOM_Matter_1", "matter_name": "receive_housing"}]}]
+[2021-08-31 09:36:49,851][Thread-1:10544][task_id:lts.views][views.py:6229][INFO][不分页的物料查询成功]
+[2021-08-31 09:36:51,395][Thread-1:10544][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_code": "Im_WorkStation_3", "work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_4", "work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_5", "work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_code": "Im_WorkStation_6", "work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_code": "Im_WorkStation_7", "work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:36:51,397][Thread-5:13800][task_id:lts.views][views.py:3108][INFO][返回人员的内码和名字成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"user_code": "Im_User_1", "user_name": "sunny"}]}]
+[2021-08-31 09:36:51,415][Thread-6:14512][task_id:lts.views][views.py:6341][INFO][不分页的产品查询成功]
+[2021-08-31 09:36:51,478][Thread-6:14512][task_id:lts.views][views.py:6030][INFO][物料查询成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"data": [], "total": 0}}]
+[2021-08-31 09:36:52,334][Thread-1:10544][task_id:lts.views][views.py:6405][INFO][OperationSystem>>>>操作成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"data": [{"ID": 1, "Package_Qty": 20, "Rv": "00A01", "Itemcode_C_Shipping": "SUB-ASSHEUH-2A001364-100", "Supplier": "SPR001300", "No_Ship": 20, "CS_type": "SPR001300-2A001364-CMSS-A01-081021-0001", "Shipping_SN_length": 12, "Product_length": 10}], "total": 1}}]
+[2021-08-31 09:36:52,337][Thread-4:16472][task_id:lts.views][views.py:4545][INFO][返回物料的内码 名称 规格 长度成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"matter_code": "Im_BOM_Matter_1", "matter_name": "receive_housing", "rule": "SPR001300-2A001364-CMSS-A01", "code_length": 27}]}]
+[2021-08-31 09:36:52,337][Thread-3:15736][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_code": "Im_WorkStation_3", "work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_4", "work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_5", "work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_code": "Im_WorkStation_6", "work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_code": "Im_WorkStation_7", "work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:36:52,354][Thread-6:14512][task_id:lts.views][views.py:3148][INFO][返回工站的内码和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_code": "Im_WorkStation_3", "work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_4", "work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_code": "Im_WorkStation_5", "work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_code": "Im_WorkStation_6", "work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_code": "Im_WorkStation_7", "work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:36:52,370][Thread-4:16472][task_id:lts.views][views.py:3077][INFO][返回生产计划内码和生产名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_plan_code": "Im_ProductPlan_1", "product_plan_name": "OW202108310001"}]}]
+[2021-08-31 09:36:52,371][Thread-5:13800][task_id:lts.views][views.py:3108][INFO][返回人员的内码和名字成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"user_code": "Im_User_1", "user_name": "sunny"}]}]
+[2021-08-31 09:37:53,012][Thread-7:16180][task_id:lts.views][views.py:4080][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "kvbten", "product_name": "kvbten1"}, {"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 09:37:54,508][Thread-7:16180][task_id:lts.views][views.py:4046][INFO][返回工站的编码和工站的名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_id": "Station_08", "work_name": "\u6cc4\u9732\u6d4b\u8bd5"}, {"work_id": "Station_09", "work_name": "\u5305\u88c5\u5de5\u7ad9"}, {"work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_id": "Station_11", "work_name": "\u7ef4\u4fee\u5de5\u7ad9"}]}]
+[2021-08-31 09:38:01,050][Thread-7:16180][task_id:lts.views][views.py:144][INFO][登录成功]
+[2021-08-31 09:38:01,109][Thread-7:16180][task_id:lts.views][views.py:3950][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_User_1", "user_id": "0201", "user_name": "sunny", "user_password": "123", "user_authority": "Station_05,Station_06,Station_08,Station_09,Station_10,Station_11,Station_051", "status": "\u542f\u7528", "user_product_id": "co2", "user_role": "", "product_id": "co2", "work_type": "\u5165\u5e93\u51fa\u5e93", "pick_number": 0, "work_id": "Station_10"}}]
+[2021-08-31 09:38:01,124][Thread-8:16060][task_id:lts.views][views.py:3950][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"user_code": "Im_User_1", "user_id": "0201", "user_name": "sunny", "user_password": "123", "user_authority": "Station_05,Station_06,Station_08,Station_09,Station_10,Station_11,Station_051", "status": "\u542f\u7528", "user_product_id": "co2", "user_role": "", "product_id": "co2", "work_type": "\u5165\u5e93\u51fa\u5e93", "pick_number": 0, "work_id": "Station_10"}}]
+[2021-08-31 09:38:01,326][Thread-8:16060][task_id:lts.views][views.py:6405][INFO][OperationSystem>>>>操作成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"data": [{"ID": 1, "Package_Qty": 20, "Rv": "00A01", "Itemcode_C_Shipping": "SUB-ASSHEUH-2A001364-100", "Supplier": "SPR001300", "No_Ship": 20, "CS_type": "SPR001300-2A001364-CMSS-A01-081021-0001", "Shipping_SN_length": 12, "Product_length": 10}], "total": 1}}]
+[2021-08-31 09:39:13,380][Thread-9:10544][task_id:lts.views][views.py:6405][INFO][OperationSystem>>>>操作成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {"data": [{"ID": 1, "Package_Qty": 20, "Rv": "00A01", "Itemcode_C_Shipping": "SUB-ASSHEUH-2A001364-100", "Supplier": "SPR001300", "No_Ship": 20, "CS_type": "SPR001300-2A001364-CMSS-A01-081021-0001", "Shipping_SN_length": 12, "Product_length": 10}], "total": 1}}]
+[2021-08-31 09:39:22,042][Thread-10:14512][task_id:lts.views][views.py:5453][INFO][出入库操作成功]
+[2021-08-31 11:12:35,374][MainThread:16672][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 11:14:08,866][Thread-13:16872][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-08-31 11:14:44,047][MainThread:16672][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py changed, reloading.]
+[2021-08-31 11:14:45,327][MainThread:2544][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 11:15:32,561][MainThread:2544][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\logistic_tracking_system\settings.py changed, reloading.]
+[2021-08-31 11:15:33,859][MainThread:14840][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 11:19:21,111][MainThread:2884][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 11:20:38,640][MainThread:2884][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\logistic_tracking_system\urls.py changed, reloading.]
+[2021-08-31 11:20:39,931][MainThread:13368][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 11:20:52,669][MainThread:13368][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\logistic_tracking_system\urls.py changed, reloading.]
+[2021-08-31 11:20:53,955][MainThread:16180][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 11:21:03,617][MainThread:16180][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\common\db.py changed, reloading.]
+[2021-08-31 11:21:04,945][MainThread:7852][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 11:22:09,346][MainThread:7852][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 11:22:10,626][MainThread:17044][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 11:29:07,668][MainThread:17044][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\logistic_tracking_system\settings.py changed, reloading.]
+[2021-08-31 11:29:08,945][MainThread:11932][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 11:29:44,175][MainThread:3208][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 11:30:17,402][MainThread:3596][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:26:35,180][MainThread:19688][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:26:49,705][Thread-1:11936][task_id:lts.views][views.py:4078][INFO][返回产品的编号和名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"product_id": "co2", "product_name": "CO2"}]}]
+[2021-08-31 19:26:51,796][Thread-1:11936][task_id:lts.views][views.py:4044][INFO][返回工站的编码和工站的名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_id": "Station_05", "work_name": "Mount Bracket\u7ec4\u4ef6\u5b89\u88c5"}, {"work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_id": "Station_08", "work_name": "\u6cc4\u6f0f\u6d4b\u8bd5"}, {"work_id": "Station_09", "work_name": "\u5305\u88c5"}, {"work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_id": "Station_11", "work_name": "\u7ef4\u4fee"}]}]
+[2021-08-31 19:26:58,576][Thread-4:7236][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-08-31 19:27:04,776][Thread-1:11936][task_id:lts.views][views.py:144][INFO][登录成功]
+[2021-08-31 19:27:04,931][Thread-1:11936][task_id:lts.views][views.py:4010][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {}}]
+[2021-08-31 19:27:04,984][Thread-1:11936][task_id:lts.views][views.py:4010][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {}}]
+[2021-08-31 19:27:06,518][Thread-1:11936][task_id:lts.views][views.py:144][INFO][登录成功]
+[2021-08-31 19:27:06,640][Thread-1:11936][task_id:lts.views][views.py:4010][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {}}]
+[2021-08-31 19:27:06,717][Thread-1:11936][task_id:lts.views][views.py:4010][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {}}]
+[2021-08-31 19:27:14,784][Thread-7:18296][task_id:django.request][log.py:230][WARNING][Not Found: /logistic]
+[2021-08-31 19:27:17,556][Thread-1:11936][task_id:lts.views][views.py:4044][INFO][返回工站的编码和工站的名称成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": [{"work_id": "Station_05", "work_name": "Mount Bracket\u7ec4\u4ef6\u5b89\u88c5"}, {"work_id": "Station_06", "work_name": "\u529f\u80fd\u6d4b\u8bd5"}, {"work_id": "Station_08", "work_name": "\u6cc4\u6f0f\u6d4b\u8bd5"}, {"work_id": "Station_09", "work_name": "\u5305\u88c5"}, {"work_id": "Station_10", "work_name": "\u53d1\u8d27"}, {"work_id": "Station_11", "work_name": "\u7ef4\u4fee"}]}]
+[2021-08-31 19:27:25,139][Thread-1:11936][task_id:lts.views][views.py:144][INFO][登录成功]
+[2021-08-31 19:27:25,246][Thread-1:11936][task_id:lts.views][views.py:4010][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {}}]
+[2021-08-31 19:27:25,322][Thread-1:11936][task_id:lts.views][views.py:4010][INFO][当前登录人的信息返回成功{"code": 0, "message": "\u64cd\u4f5c\u6210\u529f", "data": {}}]
+[2021-08-31 19:27:32,987][Thread-7:18296][task_id:lts.views][views.py:7431][ERROR][包装前检验成品操作失败->,(1046, 'No database selected')]
+[2021-08-31 19:27:33,027][Thread-7:18296][task_id:django.request][log.py:230][WARNING][Not Found: /favicon.ico]
+[2021-08-31 19:28:40,561][MainThread:19688][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:28:43,219][MainThread:4736][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:29:01,620][MainThread:4736][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:29:02,922][MainThread:9760][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:31:28,230][MainThread:9760][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:31:29,638][MainThread:20512][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:31:57,184][MainThread:20512][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:31:58,808][MainThread:8304][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:32:16,754][MainThread:8304][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:32:18,282][MainThread:3356][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:33:06,404][MainThread:3356][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:33:07,841][MainThread:14984][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:37:20,121][MainThread:14984][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:37:21,473][MainThread:4432][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:38:09,736][MainThread:4432][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:38:11,797][MainThread:11500][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:38:31,738][MainThread:11500][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:38:33,378][MainThread:19536][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:40:27,115][MainThread:19536][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:40:28,449][MainThread:18820][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:40:34,450][MainThread:18820][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:40:36,041][MainThread:3432][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:42:11,737][MainThread:3432][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:42:13,176][MainThread:5404][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 19:42:54,065][MainThread:5404][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 19:42:55,492][MainThread:16120][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:15:25,200][MainThread:16120][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:15:26,552][MainThread:13772][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:19:56,908][MainThread:13772][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:19:58,607][MainThread:6348][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:20:05,206][MainThread:6348][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:20:07,216][MainThread:6460][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:20:11,318][MainThread:6460][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:20:12,788][MainThread:7140][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:21:07,675][MainThread:7140][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:21:09,022][MainThread:2528][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:21:32,408][MainThread:2528][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:21:34,932][MainThread:9812][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:27:12,385][MainThread:9812][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:27:14,662][MainThread:15636][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:27:40,571][MainThread:15636][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:27:41,932][MainThread:13060][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:29:27,488][MainThread:13060][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:29:29,957][MainThread:2016][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:29:32,820][MainThread:2016][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:29:34,351][MainThread:19148][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:29:38,331][MainThread:19148][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:29:40,432][MainThread:12540][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:29:59,698][MainThread:12540][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:30:01,097][MainThread:16284][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:30:08,083][MainThread:16284][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:30:09,779][MainThread:19400][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:30:20,896][MainThread:19400][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:30:22,601][MainThread:13460][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:30:27,998][MainThread:13460][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:30:30,394][MainThread:20900][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:31:10,465][MainThread:20900][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:31:11,761][MainThread:9404][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:31:23,551][MainThread:9404][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:31:24,852][MainThread:7044][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:31:42,602][MainThread:7044][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:31:44,681][MainThread:11636][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:31:47,384][MainThread:11636][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:31:49,277][MainThread:3784][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:31:57,850][MainThread:3784][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:31:59,514][MainThread:18656][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:32:16,230][MainThread:18656][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:32:17,980][MainThread:18956][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:32:21,910][MainThread:18956][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:32:23,407][MainThread:8336][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:32:39,672][MainThread:8336][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:32:41,412][MainThread:18892][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:33:09,461][MainThread:18892][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:33:10,853][MainThread:15696][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:33:38,127][MainThread:15696][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:33:39,462][MainThread:21040][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:33:49,892][MainThread:21040][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:33:51,408][MainThread:13980][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:37:28,475][MainThread:13980][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:37:30,004][MainThread:6000][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:40:20,017][MainThread:6000][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:40:21,751][MainThread:20240][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:40:44,875][MainThread:20240][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:40:46,909][MainThread:13724][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:41:06,390][MainThread:13724][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:41:08,905][MainThread:19820][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:41:53,442][MainThread:19820][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:41:54,773][MainThread:20960][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:49:56,760][MainThread:20960][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:49:58,052][MainThread:17252][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:51:01,356][MainThread:17252][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:51:02,659][MainThread:6784][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:51:22,434][MainThread:6784][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:51:23,836][MainThread:13892][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 20:51:38,569][MainThread:13892][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 20:51:39,988][MainThread:12412][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:00:23,808][MainThread:12412][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:00:25,382][MainThread:15308][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:10:28,431][MainThread:15308][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:10:30,406][MainThread:1708][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:10:36,852][MainThread:1708][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:10:39,371][MainThread:6428][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:10:42,319][MainThread:6428][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:10:44,358][MainThread:19888][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:10:47,774][MainThread:19888][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:10:50,871][MainThread:2660][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:10:54,279][MainThread:2660][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:10:56,422][MainThread:5428][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:11:02,366][MainThread:5428][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:11:04,987][MainThread:6428][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:12:30,220][MainThread:6428][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:12:31,551][MainThread:19620][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:13:42,113][MainThread:19620][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:13:44,093][MainThread:10528][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:13:59,726][MainThread:10528][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:14:01,019][MainThread:7172][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:14:08,820][MainThread:7172][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:14:10,564][MainThread:10348][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:14:22,424][MainThread:10348][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:14:25,286][MainThread:6948][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:14:30,397][MainThread:6948][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:14:31,695][MainThread:19776][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:14:36,719][MainThread:19776][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:14:38,595][MainThread:9164][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:16:09,128][MainThread:9164][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:16:10,750][MainThread:7836][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:16:16,942][MainThread:7836][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:16:18,832][MainThread:10392][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:18:32,249][MainThread:10392][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:18:33,761][MainThread:9760][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:21:56,565][MainThread:9760][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:21:58,438][MainThread:20564][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:22:20,336][MainThread:20564][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:22:21,649][MainThread:18916][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:23:13,895][MainThread:18916][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:23:16,681][MainThread:19768][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:23:20,095][MainThread:19768][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:23:21,885][MainThread:1920][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:23:31,827][MainThread:1920][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:23:33,567][MainThread:10112][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:23:38,328][MainThread:10112][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:23:40,144][MainThread:19808][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:24:08,590][MainThread:19808][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:24:10,492][MainThread:17124][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:24:19,072][MainThread:17124][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:24:21,325][MainThread:11544][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:24:51,303][MainThread:11544][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:24:53,404][MainThread:20276][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:25:18,830][MainThread:20276][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:25:20,383][MainThread:21056][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:25:37,346][MainThread:21056][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:25:38,653][MainThread:13348][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:26:33,372][MainThread:13348][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:26:35,320][MainThread:3264][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:28:13,663][MainThread:3264][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:28:15,690][MainThread:20704][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:29:46,661][MainThread:20704][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:29:48,012][MainThread:12236][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:39:05,281][MainThread:12236][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:39:07,599][MainThread:12540][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:39:16,064][MainThread:12540][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:39:17,393][MainThread:20900][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:40:10,886][MainThread:20900][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:40:12,342][MainThread:21336][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:40:34,830][MainThread:21336][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:40:36,925][MainThread:14848][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:41:05,742][MainThread:14848][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:41:07,540][MainThread:13248][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:41:11,194][MainThread:13248][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:41:13,159][MainThread:15880][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:41:22,960][MainThread:15880][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:41:25,040][MainThread:12344][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:41:37,938][MainThread:12344][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:41:39,280][MainThread:4972][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:43:40,769][MainThread:4972][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:43:42,906][MainThread:9828][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:44:36,317][MainThread:9828][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:44:38,388][MainThread:8460][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:45:47,045][MainThread:8460][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:45:48,953][MainThread:19356][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:46:07,549][MainThread:19356][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:46:08,850][MainThread:2476][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:47:08,144][MainThread:2476][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:47:09,574][MainThread:2772][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:47:32,844][MainThread:2772][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:47:34,186][MainThread:15904][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
+[2021-08-31 21:48:39,934][MainThread:15904][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\zhouzhi\gitlit_code\logistic_tracking_system\logistic_tracking_system\lts\views.py changed, reloading.]
+[2021-08-31 21:48:41,430][MainThread:18272][task_id:django.utils.autoreload][autoreload.py:637][INFO][Watching for file changes with StatReloader]
